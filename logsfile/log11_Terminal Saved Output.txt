@@ -1,0 +1,2120 @@
+Last login: Tue Jan 19 17:01:18 on ttys000
+➜  ~ cd Research/sage_develop/sage
+➜  sage git:(cgal_swig_drk) ✗ ./sage -f cgal_swig_bindings
+/Applications/Xcode.app/Contents/Developer/usr/bin/make build/make/Makefile --stop
+make[1]: `build/make/Makefile' is up to date.
+build/bin/sage-logger \
+		"cd build/make && ./install 'cgal_swig_bindings-clean'" logs/install.log
+*** ALL ENVIRONMENT VARIABLES BEFORE BUILD: ***
+HOME=/Users/binshuaiwang
+LC_CTYPE=UTF-8
+LESS=-R
+LOGNAME=binshuaiwang
+LSCOLORS=Gxfxcxdxbxegedabagacad
+MAKE=make
+MAKEFLAGS= V=1
+MAKELEVEL=1
+MFLAGS=
+PAGER=less
+PATH=/Users/binshuaiwang/Research/sage_develop/sage/build/bin:/Users/binshuaiwang/Research/sage_develop/sage/src/bin:/Users/binshuaiwang/Research/sage_develop/sage/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+PWD=/Users/binshuaiwang/Research/sage_develop/sage/build/make
+PYTHONPATH=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_ENV_CONFIG_SOURCED=1
+SAGE_LOCAL=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_LOGFILE=logs/install.log
+SAGE_LOGS=/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs
+SAGE_NUM_THREADS=1
+SAGE_NUM_THREADS_PARALLEL=8
+SAGE_ORIG_PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+SAGE_ORIG_PATH_SET=True
+SAGE_PKGCONFIG=/Users/binshuaiwang/Research/sage_develop/sage/local/lib/pkgconfig
+SAGE_ROOT=/Users/binshuaiwang/Research/sage_develop/sage
+SAGE_SHARE=/Users/binshuaiwang/Research/sage_develop/sage/local/share
+SAGE_SPKG_INST=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed
+SAGE_SPKG_WHEELS=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/wheels
+SAGE_SRC=/Users/binshuaiwang/Research/sage_develop/sage/src
+SAGE_VENV=/Users/binshuaiwang/Research/sage_develop/sage/local
+SHELL=/bin/zsh
+SHLVL=5
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.4vV3Dsvixe/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=FEE8DFDD-51A0-4CAC-B40C-2207508C121D
+TMPDIR=/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/
+USER=binshuaiwang
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+ZSH=/Users/binshuaiwang/.oh-my-zsh
+_=/usr/bin/env
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+***********************************************
+sage-spkg-uninstall  cgal_swig_bindings '/Users/binshuaiwang/Research/sage_develop/sage/local'
+Uninstalling existing 'cgal_swig_bindings'
+Removing stamp file '/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/cgal_swig_bindings-5.0'
+
+real	0m0.182s
+user	0m0.068s
+sys	0m0.086s
+Sage build/upgrade complete!
+/Applications/Xcode.app/Contents/Developer/usr/bin/make build/make/Makefile --stop
+make[1]: `build/make/Makefile' is up to date.
+build/bin/sage-logger \
+		"cd build/make && ./install 'all-toolchain'" logs/install.log
+*** ALL ENVIRONMENT VARIABLES BEFORE BUILD: ***
+HOME=/Users/binshuaiwang
+LC_CTYPE=UTF-8
+LESS=-R
+LOGNAME=binshuaiwang
+LSCOLORS=Gxfxcxdxbxegedabagacad
+MAKE=make
+MAKEFLAGS= V=1
+MAKELEVEL=1
+MFLAGS=
+PAGER=less
+PATH=/Users/binshuaiwang/Research/sage_develop/sage/build/bin:/Users/binshuaiwang/Research/sage_develop/sage/src/bin:/Users/binshuaiwang/Research/sage_develop/sage/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+PWD=/Users/binshuaiwang/Research/sage_develop/sage/build/make
+PYTHONPATH=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_ENV_CONFIG_SOURCED=1
+SAGE_LOCAL=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_LOGFILE=logs/install.log
+SAGE_LOGS=/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs
+SAGE_NUM_THREADS=1
+SAGE_NUM_THREADS_PARALLEL=8
+SAGE_ORIG_PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+SAGE_ORIG_PATH_SET=True
+SAGE_PKGCONFIG=/Users/binshuaiwang/Research/sage_develop/sage/local/lib/pkgconfig
+SAGE_ROOT=/Users/binshuaiwang/Research/sage_develop/sage
+SAGE_SHARE=/Users/binshuaiwang/Research/sage_develop/sage/local/share
+SAGE_SPKG_INST=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed
+SAGE_SPKG_WHEELS=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/wheels
+SAGE_SRC=/Users/binshuaiwang/Research/sage_develop/sage/src
+SAGE_VENV=/Users/binshuaiwang/Research/sage_develop/sage/local
+SHELL=/bin/zsh
+SHLVL=5
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.4vV3Dsvixe/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=FEE8DFDD-51A0-4CAC-B40C-2207508C121D
+TMPDIR=/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/
+USER=binshuaiwang
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+ZSH=/Users/binshuaiwang/.oh-my-zsh
+_=/usr/bin/env
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+***********************************************
+make --no-print-directory toolchain
+make[2]: Nothing to be done for `toolchain'.
+make --no-print-directory toolchain-deps
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[3]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[3]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[3]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[3]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+
+real	0m0.200s
+user	0m0.164s
+sys	0m0.026s
+Sage build/upgrade complete!
+
+/Applications/Xcode.app/Contents/Developer/usr/bin/make build/make/Makefile --stop
+make[1]: `build/make/Makefile' is up to date.
+build/bin/sage-logger \
+		"cd build/make && ./install 'cgal_swig_bindings'" logs/install.log
+*** ALL ENVIRONMENT VARIABLES BEFORE BUILD: ***
+HOME=/Users/binshuaiwang
+LC_CTYPE=UTF-8
+LESS=-R
+LOGNAME=binshuaiwang
+LSCOLORS=Gxfxcxdxbxegedabagacad
+MAKE=make
+MAKEFLAGS=SAGE_SPKG=sage-spkg\  V=1
+MAKELEVEL=1
+MAKEOVERRIDES=${-*-command-variables-*-}
+MFLAGS=
+PAGER=less
+PATH=/Users/binshuaiwang/Research/sage_develop/sage/build/bin:/Users/binshuaiwang/Research/sage_develop/sage/src/bin:/Users/binshuaiwang/Research/sage_develop/sage/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+PWD=/Users/binshuaiwang/Research/sage_develop/sage/build/make
+PYTHONPATH=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_ENV_CONFIG_SOURCED=1
+SAGE_LOCAL=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_LOGFILE=logs/install.log
+SAGE_LOGS=/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs
+SAGE_NUM_THREADS=1
+SAGE_NUM_THREADS_PARALLEL=8
+SAGE_ORIG_PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+SAGE_ORIG_PATH_SET=True
+SAGE_PKGCONFIG=/Users/binshuaiwang/Research/sage_develop/sage/local/lib/pkgconfig
+SAGE_ROOT=/Users/binshuaiwang/Research/sage_develop/sage
+SAGE_SHARE=/Users/binshuaiwang/Research/sage_develop/sage/local/share
+SAGE_SPKG=sage-spkg 
+SAGE_SPKG_INST=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed
+SAGE_SPKG_WHEELS=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/wheels
+SAGE_SRC=/Users/binshuaiwang/Research/sage_develop/sage/src
+SAGE_VENV=/Users/binshuaiwang/Research/sage_develop/sage/local
+SHELL=/bin/zsh
+SHLVL=5
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.4vV3Dsvixe/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=FEE8DFDD-51A0-4CAC-B40C-2207508C121D
+TMPDIR=/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/
+USER=binshuaiwang
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+ZSH=/Users/binshuaiwang/.oh-my-zsh
+_=/usr/bin/env
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+***********************************************
+make --no-print-directory cgal_swig_bindings-no-deps
+sage-logger -p 'SAGE_CHECK=no sage-spkg    cgal_swig_bindings-5.0' '/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs/cgal_swig_bindings-5.0.log'
+[cgal_swig_bindings-5.0] Found local metadata for cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] Using cached file /Users/binshuaiwang/Research/sage_develop/sage/upstream/cgal-swig-bindings-5.0.tar.gz
+[cgal_swig_bindings-5.0] cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] ====================================================
+[cgal_swig_bindings-5.0] Setting up build directory for cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] Finished extraction
+[cgal_swig_bindings-5.0] No patch files found in ../patches
+[cgal_swig_bindings-5.0] ****************************************************
+[cgal_swig_bindings-5.0] Host system:
+[cgal_swig_bindings-5.0] Darwin binshuaideMacBook-Pro.local 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64 x86_64
+[cgal_swig_bindings-5.0] ****************************************************
+[cgal_swig_bindings-5.0] C compiler: gcc
+[cgal_swig_bindings-5.0] C compiler version:
+[cgal_swig_bindings-5.0] Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/c++/4.2.1
+[cgal_swig_bindings-5.0] Apple clang version 12.0.0 (clang-1200.0.32.28)
+[cgal_swig_bindings-5.0] Target: x86_64-apple-darwin19.6.0
+[cgal_swig_bindings-5.0] Thread model: posix
+[cgal_swig_bindings-5.0] InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+[cgal_swig_bindings-5.0] ****************************************************
+[cgal_swig_bindings-5.0] Package 'cgal_swig_bindings' is currently not installed
+[cgal_swig_bindings-5.0] No legacy uninstaller found for 'cgal_swig_bindings'; nothing to do
+[cgal_swig_bindings-5.0] Configuring cgal_swig_bindings.
+[cgal_swig_bindings-5.0] Configuring cgal_swig_bindings-5.0 with cmake
+[cgal_swig_bindings-5.0] -- The C compiler identification is AppleClang 12.0.0.12000032
+[cgal_swig_bindings-5.0] -- The CXX compiler identification is AppleClang 12.0.0.12000032
+[cgal_swig_bindings-5.0] -- Detecting C compiler ABI info
+[cgal_swig_bindings-5.0] -- Detecting C compiler ABI info - done
+[cgal_swig_bindings-5.0] -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc - skipped
+[cgal_swig_bindings-5.0] -- Detecting C compile features
+[cgal_swig_bindings-5.0] -- Detecting C compile features - done
+[cgal_swig_bindings-5.0] -- Detecting CXX compiler ABI info
+[cgal_swig_bindings-5.0] -- Detecting CXX compiler ABI info - done
+[cgal_swig_bindings-5.0] -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/g++ - skipped
+[cgal_swig_bindings-5.0] -- Detecting CXX compile features
+[cgal_swig_bindings-5.0] -- Detecting CXX compile features - done
+[cgal_swig_bindings-5.0] -- Using header-only CGAL
+[cgal_swig_bindings-5.0] -- Targetting Unix Makefiles
+[cgal_swig_bindings-5.0] -- Using /Applications/Xcode.app/Contents/Developer/usr/bin/g++ compiler.
+[cgal_swig_bindings-5.0] -- DARWIN_VERSION=19
+[cgal_swig_bindings-5.0] -- Mac Leopard detected
+[cgal_swig_bindings-5.0] -- Found GMP: /usr/local/lib/libgmp.dylib  
+[cgal_swig_bindings-5.0] -- Found MPFR: /usr/local/lib/libmpfr.dylib  
+[cgal_swig_bindings-5.0] -- Found Boost: /usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")  
+[cgal_swig_bindings-5.0] -- Boost include dirs: /usr/local/include
+[cgal_swig_bindings-5.0] -- Boost libraries:    
+[cgal_swig_bindings-5.0] -- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd (found version "1.2.11") 
+[cgal_swig_bindings-5.0] -- Found SWIG: /usr/local/bin/swig (found version "4.0.2")  
+[cgal_swig_bindings-5.0] -- Build type: 
+[cgal_swig_bindings-5.0] -- USING CXXFLAGS = '-O2 -g '
+[cgal_swig_bindings-5.0] -- USING EXEFLAGS = '-L/Users/binshuaiwang/Research/sage_develop/sage/local/lib -Wl,-rpath,/Users/binshuaiwang/Research/sage_develop/sage/local/lib '
+[cgal_swig_bindings-5.0] -- Requested component: ImageIO
+[cgal_swig_bindings-5.0] -- Requested component: MPFR
+[cgal_swig_bindings-5.0] -- Requested component: GMPXX
+[cgal_swig_bindings-5.0] -- Requested component: GMP
+[cgal_swig_bindings-5.0] -- Looking for pthread.h
+[cgal_swig_bindings-5.0] -- Looking for pthread.h - found
+[cgal_swig_bindings-5.0] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[cgal_swig_bindings-5.0] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[cgal_swig_bindings-5.0] -- Found Threads: TRUE  
+[cgal_swig_bindings-5.0] -- BUILD_RUBY is set to OFF: no CGAL-bindings for Ruby will be generated.
+[cgal_swig_bindings-5.0] -- Found Python: /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 (found suitable exact version "3.7.9") found components: Interpreter Development Development.Module Development.Embed 
+[cgal_swig_bindings-5.0] -- BUILD_JAVA is set to OFF: no CGAL-bindings for Java will be generated.
+[cgal_swig_bindings-5.0] -- Found Python libs.
+[cgal_swig_bindings-5.0] -- CGAL-SWIG Python files and libraries will be written in /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/build-python/CGAL.
+[cgal_swig_bindings-5.0] -- Now adding packages
+[cgal_swig_bindings-5.0] -- NOTICE : LAS IO requires LASlib and will not be available.
+[cgal_swig_bindings-5.0] -- Found Eigen3: /usr/local/include/eigen3 (found suitable version "3.3.9", minimum required is "3.1.0") 
+[cgal_swig_bindings-5.0] CMake Deprecation Warning at /usr/local/opt/cgal/lib/cmake/CGAL/UseEigen3.cmake:11 (message):
+[cgal_swig_bindings-5.0]   This file UseEigen.cmake is deprecated, and the imported target
+[cgal_swig_bindings-5.0]   `CGAL::Eigen_support` from CGAL_Eigen_support.cmake should be used instead.
+[cgal_swig_bindings-5.0] Call Stack (most recent call first):
+[cgal_swig_bindings-5.0]   SWIG_CGAL/Point_set_processing_3/CMakeLists.txt:6 (include)
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] CMake Deprecation Warning at /usr/local/opt/cgal/lib/cmake/CGAL/UseEigen3.cmake:11 (message):
+[cgal_swig_bindings-5.0]   This file UseEigen.cmake is deprecated, and the imported target
+[cgal_swig_bindings-5.0]   `CGAL::Eigen_support` from CGAL_Eigen_support.cmake should be used instead.
+[cgal_swig_bindings-5.0] Call Stack (most recent call first):
+[cgal_swig_bindings-5.0]   SWIG_CGAL/Shape_detection/CMakeLists.txt:6 (include)
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] -- Found Boost: /usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization iostreams 
+[cgal_swig_bindings-5.0] CMake Deprecation Warning at /usr/local/opt/cgal/lib/cmake/CGAL/UseEigen3.cmake:11 (message):
+[cgal_swig_bindings-5.0]   This file UseEigen.cmake is deprecated, and the imported target
+[cgal_swig_bindings-5.0]   `CGAL::Eigen_support` from CGAL_Eigen_support.cmake should be used instead.
+[cgal_swig_bindings-5.0] Call Stack (most recent call first):
+[cgal_swig_bindings-5.0]   SWIG_CGAL/Classification/CMakeLists.txt:34 (include)
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] -- Found Eigen3: /usr/local/include/eigen3 (found suitable version "3.3.9", minimum required is "3.2.0") 
+[cgal_swig_bindings-5.0] CMake Deprecation Warning at /usr/local/opt/cgal/lib/cmake/CGAL/UseEigen3.cmake:11 (message):
+[cgal_swig_bindings-5.0]   This file UseEigen.cmake is deprecated, and the imported target
+[cgal_swig_bindings-5.0]   `CGAL::Eigen_support` from CGAL_Eigen_support.cmake should be used instead.
+[cgal_swig_bindings-5.0] Call Stack (most recent call first):
+[cgal_swig_bindings-5.0]   CMakeLists.txt:225 (include)
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] CMake Warning at /usr/local/opt/cgal/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake:99 (message):
+[cgal_swig_bindings-5.0]   =======================================================================
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0]   CGAL performance notice:
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0]   The variable CMAKE_BUILD_TYPE is set to "".  For performance reasons, you
+[cgal_swig_bindings-5.0]   should set CMAKE_BUILD_TYPE to "Release".
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0]   Set CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE to TRUE if you want to disable
+[cgal_swig_bindings-5.0]   this warning.
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0]   =======================================================================
+[cgal_swig_bindings-5.0] Call Stack (most recent call first):
+[cgal_swig_bindings-5.0]   CMakeLists.txt:9223372036854775807 (CGAL_run_at_the_end_of_configuration)
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] -- Configuring done
+[cgal_swig_bindings-5.0] -- Generating done
+[cgal_swig_bindings-5.0] CMake Warning:
+[cgal_swig_bindings-5.0]   Manually-specified variables were not used by the project:
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0]     CMAKE_INSTALL_LIBDIR
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] -- Build files have been written to: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src
+[cgal_swig_bindings-5.0] Building cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Kernel_cpp
+[cgal_swig_bindings-5.0] [  1%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Point_2.cpp.o
+[cgal_swig_bindings-5.0] [  2%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Weighted_point_2.cpp.o
+[cgal_swig_bindings-5.0] [  3%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Segment_2.cpp.o
+[cgal_swig_bindings-5.0] [  4%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Triangle_2.cpp.o
+[cgal_swig_bindings-5.0] [  5%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Ray_2.cpp.o
+[cgal_swig_bindings-5.0] [  6%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Direction_2.cpp.o
+[cgal_swig_bindings-5.0] [  7%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Line_2.cpp.o
+[cgal_swig_bindings-5.0] [  8%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Vector_2.cpp.o
+[cgal_swig_bindings-5.0] [  9%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Polygon_2.cpp.o
+[cgal_swig_bindings-5.0] [  9%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Bbox_2.cpp.o
+[cgal_swig_bindings-5.0] [ 10%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Point_3.cpp.o
+[cgal_swig_bindings-5.0] [ 11%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Weighted_point_3.cpp.o
+[cgal_swig_bindings-5.0] [ 12%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Sphere_3.cpp.o
+[cgal_swig_bindings-5.0] [ 13%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Plane_3.cpp.o
+[cgal_swig_bindings-5.0] [ 14%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Segment_3.cpp.o
+[cgal_swig_bindings-5.0] [ 15%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Line_3.cpp.o
+[cgal_swig_bindings-5.0] [ 16%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Triangle_3.cpp.o
+[cgal_swig_bindings-5.0] [ 17%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Tetrahedron_3.cpp.o
+[cgal_swig_bindings-5.0] [ 18%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Direction_3.cpp.o
+[cgal_swig_bindings-5.0] [ 19%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Ray_3.cpp.o
+[cgal_swig_bindings-5.0] [ 20%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Vector_3.cpp.o
+[cgal_swig_bindings-5.0] [ 21%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Bbox_3.cpp.o
+[cgal_swig_bindings-5.0] [ 22%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 22%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/global_functions.cpp.o
+[cgal_swig_bindings-5.0] [ 23%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Origin.cpp.o
+[cgal_swig_bindings-5.0] [ 24%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_cpp.dir/Iso_rectangle_2.cpp.o
+[cgal_swig_bindings-5.0] [ 25%] Linking CXX shared library ../../lib/libCGAL_Kernel_cpp.dylib
+[cgal_swig_bindings-5.0] [ 25%] Built target CGAL_Kernel_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Kernel_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 26%] Swig compile CGAL_Kernel.i for python
+[cgal_swig_bindings-5.0] [ 26%] Built target CGAL_Kernel_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Kernel_python
+[cgal_swig_bindings-5.0] [ 27%] Building CXX object SWIG_CGAL/Kernel/CMakeFiles/CGAL_Kernel_python.dir/__/__/build-python/CGAL/CGAL_KernelPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 28%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Kernel.so
+[cgal_swig_bindings-5.0] [ 28%] Built target CGAL_Kernel_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_3_cpp
+[cgal_swig_bindings-5.0] [ 29%] Building CXX object SWIG_CGAL/Triangulation_3/CMakeFiles/CGAL_Triangulation_3_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 30%] Linking CXX shared library ../../lib/libCGAL_Triangulation_3_cpp.dylib
+[cgal_swig_bindings-5.0] [ 30%] Built target CGAL_Triangulation_3_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 31%] Swig compile CGAL_Triangulation_3.i for python
+[cgal_swig_bindings-5.0] [ 31%] Built target CGAL_Triangulation_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_3_python
+[cgal_swig_bindings-5.0] [ 32%] Building CXX object SWIG_CGAL/Triangulation_3/CMakeFiles/CGAL_Triangulation_3_python.dir/__/__/build-python/CGAL/CGAL_Triangulation_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 33%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Triangulation_3.so
+[cgal_swig_bindings-5.0] [ 33%] Built target CGAL_Triangulation_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_2_cpp
+[cgal_swig_bindings-5.0] [ 34%] Building CXX object SWIG_CGAL/Triangulation_2/CMakeFiles/CGAL_Triangulation_2_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 35%] Linking CXX shared library ../../lib/libCGAL_Triangulation_2_cpp.dylib
+[cgal_swig_bindings-5.0] [ 35%] Built target CGAL_Triangulation_2_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 36%] Swig compile CGAL_Triangulation_2.i for python
+[cgal_swig_bindings-5.0] [ 36%] Built target CGAL_Triangulation_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Triangulation_2_python
+[cgal_swig_bindings-5.0] [ 37%] Building CXX object SWIG_CGAL/Triangulation_2/CMakeFiles/CGAL_Triangulation_2_python.dir/__/__/build-python/CGAL/CGAL_Triangulation_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 38%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Triangulation_2.so
+[cgal_swig_bindings-5.0] [ 38%] Built target CGAL_Triangulation_2_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polyhedron_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 39%] Swig compile CGAL_Polyhedron_3.i for python
+[cgal_swig_bindings-5.0] [ 39%] Built target CGAL_Polyhedron_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polyhedron_3_python
+[cgal_swig_bindings-5.0] [ 40%] Building CXX object SWIG_CGAL/Polyhedron_3/CMakeFiles/CGAL_Polyhedron_3_python.dir/__/__/build-python/CGAL/CGAL_Polyhedron_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 41%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Polyhedron_3.so
+[cgal_swig_bindings-5.0] [ 41%] Built target CGAL_Polyhedron_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Alpha_shape_2_cpp
+[cgal_swig_bindings-5.0] [ 42%] Building CXX object SWIG_CGAL/Alpha_shape_2/CMakeFiles/CGAL_Alpha_shape_2_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 43%] Linking CXX shared library ../../lib/libCGAL_Alpha_shape_2_cpp.dylib
+[cgal_swig_bindings-5.0] [ 43%] Built target CGAL_Alpha_shape_2_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Alpha_shape_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 44%] Swig compile CGAL_Alpha_shape_2.i for python
+[cgal_swig_bindings-5.0] [ 44%] Built target CGAL_Alpha_shape_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Alpha_shape_2_python
+[cgal_swig_bindings-5.0] [ 45%] Building CXX object SWIG_CGAL/Alpha_shape_2/CMakeFiles/CGAL_Alpha_shape_2_python.dir/__/__/build-python/CGAL/CGAL_Alpha_shape_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 46%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Alpha_shape_2.so
+[cgal_swig_bindings-5.0] [ 46%] Built target CGAL_Alpha_shape_2_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Spatial_searching_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 47%] Swig compile CGAL_Spatial_searching.i for python
+[cgal_swig_bindings-5.0] [ 47%] Built target CGAL_Spatial_searching_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Spatial_searching_python
+[cgal_swig_bindings-5.0] [ 48%] Building CXX object SWIG_CGAL/Spatial_searching/CMakeFiles/CGAL_Spatial_searching_python.dir/__/__/build-python/CGAL/CGAL_Spatial_searchingPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 49%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Spatial_searching.so
+[cgal_swig_bindings-5.0] [ 49%] Built target CGAL_Spatial_searching_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_AABB_tree_cpp
+[cgal_swig_bindings-5.0] [ 49%] Building CXX object SWIG_CGAL/AABB_tree/CMakeFiles/CGAL_AABB_tree_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 50%] Linking CXX shared library ../../lib/libCGAL_AABB_tree_cpp.dylib
+[cgal_swig_bindings-5.0] [ 50%] Built target CGAL_AABB_tree_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_AABB_tree_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 51%] Swig compile CGAL_AABB_tree.i for python
+[cgal_swig_bindings-5.0] [ 51%] Built target CGAL_AABB_tree_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_AABB_tree_python
+[cgal_swig_bindings-5.0] [ 52%] Building CXX object SWIG_CGAL/AABB_tree/CMakeFiles/CGAL_AABB_tree_python.dir/__/__/build-python/CGAL/CGAL_AABB_treePYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/build-python/CGAL/CGAL_AABB_treePYTHON_wrap.cxx:2876:
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/AABB_tree/all_includes.h:9:
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/AABB_tree/typedefs.h:11:
+[cgal_swig_bindings-5.0] In file included from /usr/local/opt/cgal/include/CGAL/AABB_polyhedron_triangle_primitive.h:23:
+[cgal_swig_bindings-5.0] /usr/local/opt/cgal/include/CGAL/internal/deprecation_warning.h:80:6: warning: "A deprecated header has been included." [-W#warnings]
+[cgal_swig_bindings-5.0] #    warning "A deprecated header has been included."
+[cgal_swig_bindings-5.0]      ^
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/build-python/CGAL/CGAL_AABB_treePYTHON_wrap.cxx:2876:
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/AABB_tree/all_includes.h:9:
+[cgal_swig_bindings-5.0] In file included from /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/AABB_tree/typedefs.h:12:
+[cgal_swig_bindings-5.0] In file included from /usr/local/opt/cgal/include/CGAL/AABB_polyhedron_segment_primitive.h:27:
+[cgal_swig_bindings-5.0] /usr/local/opt/cgal/include/CGAL/internal/deprecation_warning.h:80:6: warning: "A deprecated header has been included." [-W#warnings]
+[cgal_swig_bindings-5.0] #    warning "A deprecated header has been included."
+[cgal_swig_bindings-5.0]      ^
+[cgal_swig_bindings-5.0] 2 warnings generated.
+[cgal_swig_bindings-5.0] [ 53%] Linking CXX shared module ../../build-python/CGAL/_CGAL_AABB_tree.so
+[cgal_swig_bindings-5.0] [ 53%] Built target CGAL_AABB_tree_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Surface_mesher_cpp
+[cgal_swig_bindings-5.0] [ 54%] Building CXX object SWIG_CGAL/Surface_mesher/CMakeFiles/CGAL_Surface_mesher_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 55%] Linking CXX shared library ../../lib/libCGAL_Surface_mesher_cpp.dylib
+[cgal_swig_bindings-5.0] [ 55%] Built target CGAL_Surface_mesher_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Surface_mesher_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 55%] Swig compile CGAL_Surface_mesher.i for python
+[cgal_swig_bindings-5.0] [ 55%] Built target CGAL_Surface_mesher_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Surface_mesher_python
+[cgal_swig_bindings-5.0] [ 56%] Building CXX object SWIG_CGAL/Surface_mesher/CMakeFiles/CGAL_Surface_mesher_python.dir/__/__/build-python/CGAL/CGAL_Surface_mesherPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/build-python/CGAL/CGAL_Surface_mesherPYTHON_wrap.cxx:3813:11: warning: 'output_surface_facets_to_polyhedron<CGAL::Complex_2_in_triangulation_3<CGAL::Delaunay_triangulation_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_data_structure_3<CGAL::Surface_mesh_vertex_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_vertex_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_ds_vertex_base_3<void> > >, CGAL::Delaunay_triangulation_cell_base_with_circumcenter_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Surface_mesh_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Delaunay_triangulation_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_ds_cell_base_3<void> > > > >, CGAL::Sequential_tag>, CGAL::Default, CGAL::Default>, void>, CGAL::Polyhedron_3<CGAL::Epick, CGAL::Polyhedron_items_with_id_3, HalfedgeDS_default, std::__1::allocator<int> > >' is deprecated: Please use facets_in_complex_2_to_triangle_mesh() instead. [-Wdeprecated-declarations]
+[cgal_swig_bindings-5.0]     CGAL::output_surface_facets_to_polyhedron( c2t3.get_data(),poly.get_data() );
+[cgal_swig_bindings-5.0]           ^
+[cgal_swig_bindings-5.0] /usr/local/opt/cgal/include/CGAL/IO/output_surface_facets_to_polyhedron.h:39:1: note: 'output_surface_facets_to_polyhedron<CGAL::Complex_2_in_triangulation_3<CGAL::Delaunay_triangulation_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_data_structure_3<CGAL::Surface_mesh_vertex_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_vertex_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_ds_vertex_base_3<void> > >, CGAL::Delaunay_triangulation_cell_base_with_circumcenter_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Surface_mesh_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Delaunay_triangulation_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_cell_base_3<CGAL::Robust_circumcenter_traits_3<CGAL::Epick>, CGAL::Triangulation_ds_cell_base_3<void> > > > >, CGAL::Sequential_tag>, CGAL::Default, CGAL::Default>, void>, CGAL::Polyhedron_3<CGAL::Epick, CGAL::Polyhedron_items_with_id_3, HalfedgeDS_default, std::__1::allocator<int> > >' has been explicitly marked deprecated here
+[cgal_swig_bindings-5.0] CGAL_DEPRECATED_MSG(
+[cgal_swig_bindings-5.0] ^
+[cgal_swig_bindings-5.0] /usr/local/opt/cgal/include/CGAL/config.h:549:54: note: expanded from macro 'CGAL_DEPRECATED_MSG'
+[cgal_swig_bindings-5.0] #    define CGAL_DEPRECATED_MSG(msg) __attribute__ ((deprecated(msg)))
+[cgal_swig_bindings-5.0]                                                      ^
+[cgal_swig_bindings-5.0] 1 warning generated.
+[cgal_swig_bindings-5.0] [ 57%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Surface_mesher.so
+[cgal_swig_bindings-5.0] [ 57%] Built target CGAL_Surface_mesher_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Mesh_3_cpp
+[cgal_swig_bindings-5.0] [ 58%] Building CXX object SWIG_CGAL/Mesh_3/CMakeFiles/CGAL_Mesh_3_cpp.dir/Object.cpp.o
+[cgal_swig_bindings-5.0] [ 59%] Linking CXX shared library ../../lib/libCGAL_Mesh_3_cpp.dylib
+[cgal_swig_bindings-5.0] [ 59%] Built target CGAL_Mesh_3_cpp
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Mesh_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 60%] Swig compile CGAL_Mesh_3.i for python
+[cgal_swig_bindings-5.0] [ 60%] Built target CGAL_Mesh_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Mesh_3_python
+[cgal_swig_bindings-5.0] [ 61%] Building CXX object SWIG_CGAL/Mesh_3/CMakeFiles/CGAL_Mesh_3_python.dir/__/__/build-python/CGAL/CGAL_Mesh_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 61%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Mesh_3.so
+[cgal_swig_bindings-5.0] [ 61%] Built target CGAL_Mesh_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Mesh_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 62%] Swig compile CGAL_Mesh_2.i for python
+[cgal_swig_bindings-5.0] [ 62%] Built target CGAL_Mesh_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Mesh_2_python
+[cgal_swig_bindings-5.0] [ 63%] Building CXX object SWIG_CGAL/Mesh_2/CMakeFiles/CGAL_Mesh_2_python.dir/__/__/build-python/CGAL/CGAL_Mesh_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 64%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Mesh_2.so
+[cgal_swig_bindings-5.0] [ 64%] Built target CGAL_Mesh_2_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Interpolation_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 65%] Swig compile CGAL_Interpolation.i for python
+[cgal_swig_bindings-5.0] [ 65%] Built target CGAL_Interpolation_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Interpolation_python
+[cgal_swig_bindings-5.0] [ 66%] Building CXX object SWIG_CGAL/Interpolation/CMakeFiles/CGAL_Interpolation_python.dir/__/__/build-python/CGAL/CGAL_InterpolationPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 67%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Interpolation.so
+[cgal_swig_bindings-5.0] [ 67%] Built target CGAL_Interpolation_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Convex_hull_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 68%] Swig compile CGAL_Convex_hull_2.i for python
+[cgal_swig_bindings-5.0] [ 68%] Built target CGAL_Convex_hull_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Convex_hull_2_python
+[cgal_swig_bindings-5.0] [ 69%] Building CXX object SWIG_CGAL/Convex_hull_2/CMakeFiles/CGAL_Convex_hull_2_python.dir/__/__/build-python/CGAL/CGAL_Convex_hull_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 70%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Convex_hull_2.so
+[cgal_swig_bindings-5.0] [ 70%] Built target CGAL_Convex_hull_2_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Convex_hull_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 71%] Swig compile CGAL_Convex_hull_3.i for python
+[cgal_swig_bindings-5.0] [ 71%] Built target CGAL_Convex_hull_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Convex_hull_3_python
+[cgal_swig_bindings-5.0] [ 72%] Building CXX object SWIG_CGAL/Convex_hull_3/CMakeFiles/CGAL_Convex_hull_3_python.dir/__/__/build-python/CGAL/CGAL_Convex_hull_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 73%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Convex_hull_3.so
+[cgal_swig_bindings-5.0] [ 73%] Built target CGAL_Convex_hull_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Voronoi_diagram_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 74%] Swig compile CGAL_Voronoi_diagram_2.i for python
+[cgal_swig_bindings-5.0] [ 74%] Built target CGAL_Voronoi_diagram_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Voronoi_diagram_2_python
+[cgal_swig_bindings-5.0] [ 75%] Building CXX object SWIG_CGAL/Voronoi_diagram_2/CMakeFiles/CGAL_Voronoi_diagram_2_python.dir/__/__/build-python/CGAL/CGAL_Voronoi_diagram_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 76%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Voronoi_diagram_2.so
+[cgal_swig_bindings-5.0] [ 76%] Built target CGAL_Voronoi_diagram_2_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_HalfedgeDS_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 76%] Swig compile CGAL_HalfedgeDS.i for python
+[cgal_swig_bindings-5.0] [ 76%] Built target CGAL_HalfedgeDS_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_HalfedgeDS_python
+[cgal_swig_bindings-5.0] [ 77%] Building CXX object SWIG_CGAL/HalfedgeDS/CMakeFiles/CGAL_HalfedgeDS_python.dir/__/__/build-python/CGAL/CGAL_HalfedgeDSPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 78%] Linking CXX shared module ../../build-python/CGAL/_CGAL_HalfedgeDS.so
+[cgal_swig_bindings-5.0] [ 78%] Built target CGAL_HalfedgeDS_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Point_set_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 79%] Swig compile CGAL_Point_set_3.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Point_set_3/Point_set_3.h:342: Warning 317: Specialization of non-template 'GetFT'.
+[cgal_swig_bindings-5.0] [ 79%] Built target CGAL_Point_set_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Point_set_3_python
+[cgal_swig_bindings-5.0] [ 80%] Building CXX object SWIG_CGAL/Point_set_3/CMakeFiles/CGAL_Point_set_3_python.dir/__/__/build-python/CGAL/CGAL_Point_set_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 81%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Point_set_3.so
+[cgal_swig_bindings-5.0] [ 81%] Built target CGAL_Point_set_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Point_set_processing_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 82%] Swig compile CGAL_Point_set_processing_3.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Point_set_3/Point_set_3.h:342: Warning 317: Specialization of non-template 'GetFT'.
+[cgal_swig_bindings-5.0] [ 82%] Built target CGAL_Point_set_processing_3_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Point_set_processing_3_python
+[cgal_swig_bindings-5.0] [ 83%] Building CXX object SWIG_CGAL/Point_set_processing_3/CMakeFiles/CGAL_Point_set_processing_3_python.dir/__/__/build-python/CGAL/CGAL_Point_set_processing_3PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 84%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Point_set_processing_3.so
+[cgal_swig_bindings-5.0] [ 84%] Built target CGAL_Point_set_processing_3_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Shape_detection_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 85%] Swig compile CGAL_Shape_detection.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Point_set_3/Point_set_3.h:342: Warning 317: Specialization of non-template 'GetFT'.
+[cgal_swig_bindings-5.0] [ 85%] Built target CGAL_Shape_detection_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Shape_detection_python
+[cgal_swig_bindings-5.0] [ 86%] Building CXX object SWIG_CGAL/Shape_detection/CMakeFiles/CGAL_Shape_detection_python.dir/__/__/build-python/CGAL/CGAL_Shape_detectionPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 87%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Shape_detection.so
+[cgal_swig_bindings-5.0] [ 87%] Built target CGAL_Shape_detection_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Classification_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 88%] Swig compile CGAL_Classification.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Point_set_3/Point_set_3.h:342: Warning 317: Specialization of non-template 'GetFT'.
+[cgal_swig_bindings-5.0] [ 88%] Built target CGAL_Classification_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Classification_python
+[cgal_swig_bindings-5.0] [ 89%] Building CXX object SWIG_CGAL/Classification/CMakeFiles/CGAL_Classification_python.dir/__/__/build-python/CGAL/CGAL_ClassificationPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 90%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Classification.so
+[cgal_swig_bindings-5.0] [ 90%] Built target CGAL_Classification_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Box_intersection_d_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 91%] Swig compile CGAL_Box_intersection_d.i for python
+[cgal_swig_bindings-5.0] [ 91%] Built target CGAL_Box_intersection_d_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Box_intersection_d_python
+[cgal_swig_bindings-5.0] [ 91%] Building CXX object SWIG_CGAL/Box_intersection_d/CMakeFiles/CGAL_Box_intersection_d_python.dir/__/__/build-python/CGAL/CGAL_Box_intersection_dPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 92%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Box_intersection_d.so
+[cgal_swig_bindings-5.0] [ 92%] Built target CGAL_Box_intersection_d_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Advancing_front_surface_reconstruction_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 93%] Swig compile CGAL_Advancing_front_surface_reconstruction.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Common/Output_iterator_wrapper.h:70: Warning 317: Specialization of non-template 'value_type_traits'.
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Point_set_3/Point_set_3.h:342: Warning 317: Specialization of non-template 'GetFT'.
+[cgal_swig_bindings-5.0] [ 93%] Built target CGAL_Advancing_front_surface_reconstruction_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Advancing_front_surface_reconstruction_python
+[cgal_swig_bindings-5.0] [ 94%] Building CXX object SWIG_CGAL/Advancing_front_surface_reconstruction/CMakeFiles/CGAL_Advancing_front_surface_reconstruction_python.dir/__/__/build-python/CGAL/CGAL_Advancing_front_surface_reconstructionPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 95%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Advancing_front_surface_reconstruction.so
+[cgal_swig_bindings-5.0] [ 95%] Built target CGAL_Advancing_front_surface_reconstruction_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polygon_mesh_processing_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 96%] Swig compile CGAL_Polygon_mesh_processing.i for python
+[cgal_swig_bindings-5.0] [ 96%] Built target CGAL_Polygon_mesh_processing_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polygon_mesh_processing_python
+[cgal_swig_bindings-5.0] [ 97%] Building CXX object SWIG_CGAL/Polygon_mesh_processing/CMakeFiles/CGAL_Polygon_mesh_processing_python.dir/__/__/build-python/CGAL/CGAL_Polygon_mesh_processingPYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [ 98%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Polygon_mesh_processing.so
+[cgal_swig_bindings-5.0] [ 98%] Built target CGAL_Polygon_mesh_processing_python
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polyline_simplification_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 99%] Swig compile CGAL_Polyline_simplification_2.i for python
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/src/SWIG_CGAL/Common/Output_iterator_wrapper.h:70: Warning 317: Specialization of non-template 'value_type_traits'.
+[cgal_swig_bindings-5.0] [ 99%] Built target CGAL_Polyline_simplification_2_python_swig_compilation
+[cgal_swig_bindings-5.0] Scanning dependencies of target CGAL_Polyline_simplification_2_python
+[cgal_swig_bindings-5.0] [ 99%] Building CXX object SWIG_CGAL/Polyline_simplification_2/CMakeFiles/CGAL_Polyline_simplification_2_python.dir/__/__/build-python/CGAL/CGAL_Polyline_simplification_2PYTHON_wrap.cxx.o
+[cgal_swig_bindings-5.0] [100%] Linking CXX shared module ../../build-python/CGAL/_CGAL_Polyline_simplification_2.so
+[cgal_swig_bindings-5.0] [100%] Built target CGAL_Polyline_simplification_2_python
+[cgal_swig_bindings-5.0] Installing cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] [ 25%] Built target CGAL_Kernel_cpp
+[cgal_swig_bindings-5.0] [ 26%] Built target CGAL_Kernel_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 28%] Built target CGAL_Kernel_python
+[cgal_swig_bindings-5.0] [ 30%] Built target CGAL_Triangulation_3_cpp
+[cgal_swig_bindings-5.0] [ 31%] Built target CGAL_Triangulation_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 33%] Built target CGAL_Triangulation_3_python
+[cgal_swig_bindings-5.0] [ 35%] Built target CGAL_Triangulation_2_cpp
+[cgal_swig_bindings-5.0] [ 36%] Built target CGAL_Triangulation_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 38%] Built target CGAL_Triangulation_2_python
+[cgal_swig_bindings-5.0] [ 39%] Built target CGAL_Polyhedron_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 41%] Built target CGAL_Polyhedron_3_python
+[cgal_swig_bindings-5.0] [ 43%] Built target CGAL_Alpha_shape_2_cpp
+[cgal_swig_bindings-5.0] [ 44%] Built target CGAL_Alpha_shape_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 46%] Built target CGAL_Alpha_shape_2_python
+[cgal_swig_bindings-5.0] [ 47%] Built target CGAL_Spatial_searching_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 49%] Built target CGAL_Spatial_searching_python
+[cgal_swig_bindings-5.0] [ 50%] Built target CGAL_AABB_tree_cpp
+[cgal_swig_bindings-5.0] [ 51%] Built target CGAL_AABB_tree_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 53%] Built target CGAL_AABB_tree_python
+[cgal_swig_bindings-5.0] [ 55%] Built target CGAL_Surface_mesher_cpp
+[cgal_swig_bindings-5.0] [ 55%] Built target CGAL_Surface_mesher_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 57%] Built target CGAL_Surface_mesher_python
+[cgal_swig_bindings-5.0] [ 59%] Built target CGAL_Mesh_3_cpp
+[cgal_swig_bindings-5.0] [ 60%] Built target CGAL_Mesh_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 61%] Built target CGAL_Mesh_3_python
+[cgal_swig_bindings-5.0] [ 62%] Built target CGAL_Mesh_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 64%] Built target CGAL_Mesh_2_python
+[cgal_swig_bindings-5.0] [ 65%] Built target CGAL_Interpolation_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 67%] Built target CGAL_Interpolation_python
+[cgal_swig_bindings-5.0] [ 68%] Built target CGAL_Convex_hull_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 70%] Built target CGAL_Convex_hull_2_python
+[cgal_swig_bindings-5.0] [ 71%] Built target CGAL_Convex_hull_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 73%] Built target CGAL_Convex_hull_3_python
+[cgal_swig_bindings-5.0] [ 74%] Built target CGAL_Voronoi_diagram_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 76%] Built target CGAL_Voronoi_diagram_2_python
+[cgal_swig_bindings-5.0] [ 76%] Built target CGAL_HalfedgeDS_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 78%] Built target CGAL_HalfedgeDS_python
+[cgal_swig_bindings-5.0] [ 79%] Built target CGAL_Point_set_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 81%] Built target CGAL_Point_set_3_python
+[cgal_swig_bindings-5.0] [ 82%] Built target CGAL_Point_set_processing_3_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 84%] Built target CGAL_Point_set_processing_3_python
+[cgal_swig_bindings-5.0] [ 85%] Built target CGAL_Shape_detection_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 87%] Built target CGAL_Shape_detection_python
+[cgal_swig_bindings-5.0] [ 88%] Built target CGAL_Classification_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 90%] Built target CGAL_Classification_python
+[cgal_swig_bindings-5.0] [ 91%] Built target CGAL_Box_intersection_d_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 92%] Built target CGAL_Box_intersection_d_python
+[cgal_swig_bindings-5.0] [ 93%] Built target CGAL_Advancing_front_surface_reconstruction_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 95%] Built target CGAL_Advancing_front_surface_reconstruction_python
+[cgal_swig_bindings-5.0] [ 96%] Built target CGAL_Polygon_mesh_processing_python_swig_compilation
+[cgal_swig_bindings-5.0] [ 98%] Built target CGAL_Polygon_mesh_processing_python
+[cgal_swig_bindings-5.0] [ 99%] Built target CGAL_Polyline_simplification_2_python_swig_compilation
+[cgal_swig_bindings-5.0] [100%] Built target CGAL_Polyline_simplification_2_python
+[cgal_swig_bindings-5.0] Install the project...
+[cgal_swig_bindings-5.0] -- Install configuration: ""
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/__init__.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Kernel_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Kernel_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Kernel.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Kernel.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Kernel.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Triangulation_3_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Triangulation_3_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Triangulation_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Triangulation_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Triangulation_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Triangulation_2_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Triangulation_2_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Triangulation_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Triangulation_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Triangulation_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Polyhedron_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polyhedron_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polyhedron_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Alpha_shape_2_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Alpha_shape_2_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Alpha_shape_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Alpha_shape_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Alpha_shape_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Spatial_searching.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Spatial_searching.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Spatial_searching.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_AABB_tree_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_AABB_tree_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_AABB_tree.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_AABB_tree.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_AABB_tree.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Surface_mesher_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Surface_mesher_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Surface_mesher.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Surface_mesher.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Surface_mesher.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Mesh_3_cpp.dylib
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/libCGAL_Mesh_3_cpp.dylib (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Mesh_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Mesh_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Mesh_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Mesh_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Mesh_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Mesh_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Interpolation.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Interpolation.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Interpolation.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Convex_hull_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Convex_hull_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Convex_hull_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Convex_hull_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Convex_hull_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Convex_hull_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Voronoi_diagram_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Voronoi_diagram_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Voronoi_diagram_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_HalfedgeDS.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_HalfedgeDS.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_HalfedgeDS.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Point_set_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Point_set_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Point_set_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Point_set_processing_3.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Point_set_processing_3.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Point_set_processing_3.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Shape_detection.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Shape_detection.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Shape_detection.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Classification.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Classification.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Classification.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Box_intersection_d.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Box_intersection_d.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Box_intersection_d.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Advancing_front_surface_reconstruction.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Advancing_front_surface_reconstruction.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Advancing_front_surface_reconstruction.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Polygon_mesh_processing.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polygon_mesh_processing.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polygon_mesh_processing.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Polyline_simplification_2.py
+[cgal_swig_bindings-5.0] -- Installing: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polyline_simplification_2.so
+[cgal_swig_bindings-5.0] error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: for: /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst/Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/_CGAL_Polyline_simplification_2.so (for architecture x86_64) option "-add_rpath /Users/binshuaiwang/Research/sage_develop/sage/local/lib" would duplicate path, file already has LC_RPATH for: /Users/binshuaiwang/Research/sage_develop/sage/local/lib
+[cgal_swig_bindings-5.0] 
+[cgal_swig_bindings-5.0] real	14m33.639s
+[cgal_swig_bindings-5.0] user	13m50.929s
+[cgal_swig_bindings-5.0] sys	0m36.970s
+[cgal_swig_bindings-5.0] Copying package files from temporary location /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0/inst to /Users/binshuaiwang/Research/sage_develop/sage/local
+[cgal_swig_bindings-5.0] Successfully installed cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] Deleting temporary build directory
+[cgal_swig_bindings-5.0] /Users/binshuaiwang/Research/sage_develop/sage/local/var/tmp/sage/build/cgal_swig_bindings-5.0
+[cgal_swig_bindings-5.0] Finished installing cgal_swig_bindings-5.0
+
+real	14m35.327s
+user	13m51.478s
+sys	0m37.749s
+Sage build/upgrade complete!
+New packages may have been installed.
+Re-running configure and make in case any dependent packages need updating.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make build/make/Makefile --stop
+rm -f config.log
+mkdir -p logs/pkgs
+ln -s logs/pkgs/config.log config.log
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure PKG_CONFIG_PATH=/Users/binshuaiwang/Research/sage_develop/sage/local/lib/pkgconfig CC=gcc LDFLAGS=-L/Users/binshuaiwang/Research/sage_develop/sage/local/lib -Wl,-rpath,/Users/binshuaiwang/Research/sage_develop/sage/local/lib  CXX=g++ -std=gnu++11 FC=gfortran --no-create --no-recursion
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... config/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for root user... no
+checking build system type... x86_64-apple-darwin19.6.0
+checking host system type... x86_64-apple-darwin19.6.0
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for ar... yes
+checking for m4... yes
+checking for pkg-config... /usr/local/bin/pkg-config
+checking pkg-config is at least version 0.29... yes
+checking for ranlib... yes
+checking for strip... yes
+checking for GNU or BSD tar... /usr/bin/tar
+checking for GNU make... /usr/bin/make
+checking for Python... /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python
+checking for latex... yes
+checking for perl... /usr/bin/perl
+checking for Perl version 5.8.0 or later... yes
+checking whether a conda environment is active... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... none
+checking how to run the C preprocessor... gcc -E
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++11 accepts -g... yes
+checking dependency style of g++ -std=gnu++11... none
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran accepts -g... yes
+checking for gcc... gcc
+checking whether we are using the GNU Objective C compiler... yes
+checking whether gcc accepts -g... yes
+checking dependency style of gcc... none
+checking for g++... g++
+checking whether we are using the GNU Objective C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... none
+checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for sqrt in -lm... yes
+You are using OS X Lion (or later).
+You are strongly advised to install Apple's latest Xcode
+unless you already have it. You can install this using
+the App Store. Also, make sure you install Xcode's
+Command Line Tools -- see Sage's README.txt.
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gcc...
+checking for C compiler vendor... clang
+checking whether g++ -std=gnu++11 supports C++11 features with -std=gnu++11... yes
+checking for gcc option to accept ISO C99... none needed
+checking if gcc accepts -dumpversion option... yes
+checking gcc version... 12.0.0
+checking if g++ accepts -dumpversion option... yes
+checking g++ version... 12.0.0
+configure: will use system package and not install SPKG gcc
+checking for the location of crti.o... 
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG mpir...
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking gmpxx.h usability... yes
+checking gmpxx.h presence... yes
+checking for gmpxx.h... yes
+checking for library containing __gmpq_cmp_z... -lgmp
+configure: will use system package and not install SPKG mpir
+checking absolute name of <gmp.h>... checking for gmp.h... (cached) yes
+///usr/local/include/gmp.h
+using GMP-compatible library from the system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gmp...
+configure: will use system package and not install SPKG gmp
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG mpfr...
+checking installing gmp/mpir? ... no
+checking mpfr.h usability... yes
+checking mpfr.h presence... yes
+checking for mpfr.h... yes
+checking for library containing mpfr_free_pool... -lmpfr
+configure: will use system package and not install SPKG mpfr
+using mpfr library from the system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG ntl...
+configure: ntl has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG flint...
+configure: flint has already been installed by SageMath
+using Sage's flint SPKG
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG arb...
+configure: arb has already been installed by SageMath
+checking for Fortran flag needed to accept free-form source... -ffree-form
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gfortran...
+checking the version of gfortran... 10.2.0
+configure: will use system package and not install SPKG gfortran
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG openblas...
+checking BLAS library... openblas
+configure: openblas has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG atlas...
+configure: SPKG atlas is not required on this system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG boost_cropped...
+checking for boostlib >= 1.66.0 (106600)... yes
+configure: will use system package and not install SPKG boost_cropped
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG boost...
+checking whether any of boost_cropped is installed as or will be installed as SPKG... no
+configure: will use system package and not install SPKG boost
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG zlib...
+checking for inflateEnd in -lz... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for LIBPNG... yes
+configure: will use system package and not install SPKG zlib
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libpng...
+checking installing zlib? ... no
+checking for LIBPNG... yes
+configure: will use system package and not install SPKG libpng
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG m4ri...
+configure: m4ri has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG brial...
+configure: brial has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG bzip2...
+checking bzlib.h usability... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for library containing BZ2_bzCompress... -lbz2
+checking for bzip2... /usr/bin/bzip2
+configure: will use system package and not install SPKG bzip2
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG cbc...
+checking whether any of atlas openblas zlib bzip2 is installed as or will be installed as SPKG... yes; install cbc as well
+configure: no suitable system package found for SPKG cbc
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG cddlib...
+configure: cddlib has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG cliquer...
+configure: cliquer has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG cmake...
+checking for cmake >= 3.4... /usr/local/bin/cmake
+configure: will use system package and not install SPKG cmake
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG coxeter3...
+checking for library coxeter3... no
+configure: no suitable system package found for SPKG coxeter3
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG curl...
+checking for curl 7.22... /usr/bin/curl
+checking for gawk... (cached) awk
+checking for curl-config... /usr/bin/curl-config
+checking for the version of libcurl... 7.64.1
+checking for libcurl >= version 7.22... yes
+checking whether libcurl is usable... yes
+checking for curl_free... yes
+checking whether programs linking to libcurl can be executed... yes
+configure: will use system package and not install SPKG curl
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG ncurses...
+checking for NCURSES... no
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking for library containing wresize... -lncurses
+configure: will use system package and not install SPKG ncurses
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG readline...
+configure: readline has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari...
+configure: pari has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG eclib...
+configure: eclib has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG ecm...
+configure: ecm has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG givaro...
+configure: givaro has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG fflas_ffpack...
+configure: fflas_ffpack has already been installed by SageMath
+checking whether C++ compiler accepts -mavx512f -mavx512vl -mavx512dq... yes
+checking whether C++ compiler accepts -mfma... yes
+checking whether C++ compiler accepts -mfma4... yes
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG flintqs...
+configure: flintqs has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG fplll...
+configure: fplll has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG freetype...
+checking whether any of libpng is installed as or will be installed as SPKG... no
+checking for FREETYPE... yes
+configure: will use system package and not install SPKG freetype
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libatomic_ops...
+checking for LIBATOMIC_OPS... yes
+configure: will use system package and not install SPKG libatomic_ops
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gc...
+checking whether any of libatomic_ops is installed as or will be installed as SPKG... no
+checking whether we run on WSL... no
+checking for GC... no
+checking for GC... yes
+configure: will use system package and not install SPKG gc
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gf2x...
+configure: gf2x has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gfan...
+configure: gfan has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG giac...
+configure: giac has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG git...
+checking for git... /usr/bin/git
+configure: will use system package and not install SPKG git
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG glpk...
+checking whether any of gmp mpir zlib is installed as or will be installed as SPKG... no
+checking for glpsol... /usr/local/bin/glpsol
+checking glpk.h usability... yes
+checking glpk.h presence... yes
+checking for glpk.h... yes
+checking for library containing glp_config... -lglpk
+yes. Use system's glpk
+configure: will use system package and not install SPKG glpk
+using glpk from the system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gp2c...
+checking whether any of pari is installed as or will be installed as SPKG... yes; install gp2c as well
+configure: pari.cfg is $SAGE_LOCAL/lib/pari/pari.cfg
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG gsl...
+configure: gsl has already been installed by SageMath
+checking for ld used by gcc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking 32-bit host C ABI... no
+checking for ELF binary format... no
+checking for the common suffixes of directories in the library search path... lib,lib,lib
+checking for iconv... yes
+checking for working iconv... yes
+checking how to link with libiconv... -liconv
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG iconv...
+configure: will use system package and not install SPKG iconv
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG igraph...
+checking whether any of glpk atlas openblas gmp mpir is installed as or will be installed as SPKG... yes; install igraph as well
+configure: no suitable system package found for SPKG igraph
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG iml...
+configure: iml has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG isl...
+checking installing gmp/mpir? ... no
+checking for ISL... yes
+configure: will use system package and not install SPKG isl
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG lcalc...
+configure: lcalc has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libbraiding...
+configure: libbraiding has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libffi...
+checking for LIBFFI... yes
+configure: will use system package and not install SPKG libffi
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libgd...
+checking Installing freetype? ... checking Installing libpng? ... No.
+checking for LIBGD... yes
+configure: will use system package and not install SPKG libgd
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libhomfly...
+configure: libhomfly has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG nauty...
+checking for geng... /usr/local/bin/geng
+checking for directg... /usr/local/bin/directg
+checking for gentourng... /usr/local/bin/gentourng
+checking for geng... /usr/local/bin/geng
+checking for genbg... /usr/local/bin/genbg
+checking for converseg... /usr/local/bin/converseg
+configure: will use system package and not install SPKG nauty
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libnauty...
+checking whether any of nauty is installed as or will be installed as SPKG... no
+checking nauty/nauty.h usability... yes
+checking nauty/nauty.h presence... yes
+checking for nauty/nauty.h... yes
+checking for library containing densenauty... -lnauty
+configure: will use system package and not install SPKG libnauty
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libsemigroups...
+checking for LIBSEMIGROUPS... no
+configure: no suitable system package found for SPKG libsemigroups
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG libxml2...
+checking for xml2-config... /usr/bin/xml2-config
+configure: will use system package and not install SPKG libxml2
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG lrcalc...
+configure: lrcalc has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG m4rie...
+configure: m4rie has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG mpc...
+checking installing mpfr? ... no
+checking mpc.h usability... yes
+checking mpc.h presence... yes
+checking for mpc.h... yes
+checking for library containing mpc_cmp_abs... -lmpc
+configure: will use system package and not install SPKG mpc
+using mpc library from the system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG mpfi...
+checking installing mpfr? ... no
+checking mpfi.h usability... yes
+checking mpfi.h presence... yes
+checking for mpfi.h... yes
+checking for library containing mpfi_diam_abs... -lmpfi
+checking MPFI version >= 1.5... yes
+configure: will use system package and not install SPKG mpfi
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG ninja_build...
+checking for ninja >= 1.7.2... /usr/local/bin/ninja
+configure: will use system package and not install SPKG ninja_build
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG openssl...
+checking for pkg-config... /usr/local/bin/pkg-config
+checking for openssl/ssl.h in /usr/local/ssl... no
+checking for openssl/ssl.h in /usr/lib/ssl... no
+checking for openssl/ssl.h in /usr/ssl... no
+checking for openssl/ssl.h in /usr/pkg... no
+checking for openssl/ssl.h in /usr/local... no
+checking for openssl/ssl.h in /usr... no
+checking whether compiling and linking against OpenSSL works... no
+configure: no suitable system package found for SPKG openssl
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG palp...
+configure: palp has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pandoc...
+checking for pandoc... /usr/local/bin/pandoc
+configure: will use system package and not install SPKG pandoc
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_elldata...
+checking installing pari? ... yes; install pari_elldata as well
+configure: no suitable system package found for SPKG pari_elldata
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_galdata...
+configure: pari_galdata has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_galpol...
+checking installing pari? ... yes; install pari_galpol as well
+configure: no suitable system package found for SPKG pari_galpol
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_nftables...
+checking installing pari? ... yes; install pari_nftables as well
+configure: no suitable system package found for SPKG pari_nftables
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_seadata...
+checking installing pari? ... yes; install pari_seadata as well
+configure: no suitable system package found for SPKG pari_seadata
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pari_seadata_small...
+configure: pari_seadata_small has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG patch...
+checking for GNU patch >= 2.7.0... /usr/local/bin/patch
+configure: will use system package and not install SPKG patch
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pcre...
+checking installing bzip2? ... no
+checking for PCRE... yes
+configure: will use system package and not install SPKG pcre
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG perl_cpan_polymake_prereq...
+checking for perl module XML::Writer... ok
+checking for perl module XML::LibXML... ok
+checking for perl module XML::LibXSLT... ok
+checking for perl module File::Slurp... ok
+checking for perl module JSON... no
+checking for perl module SVG... no
+checking for perl module MongoDB... no
+configure: no suitable system package found for SPKG perl_cpan_polymake_prereq
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG perl_term_readline_gnu...
+checking for perl module Term::ReadLine... ok
+checking Term::ReadLine module...... non-GNU
+configure: no suitable system package found for SPKG perl_term_readline_gnu
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG pkgconf...
+using pkg-config from the system
+configure: will use system package and not install SPKG pkgconf
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG planarity...
+configure: planarity has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG ppl...
+checking whether any of glpk gmp mpir is installed as or will be installed as SPKG... no
+checking for ppl-config... /usr/local/bin/ppl-config
+checking for the Parma Polyhedra Library, version >= 1.2... yes
+configure: will use system package and not install SPKG ppl
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG xz...
+checking for lzma_raw_decoder in -llzma... yes
+checking lzma.h usability... yes
+checking lzma.h presence... yes
+checking for lzma.h... yes
+checking for xz >= 4.999.0... /usr/local/bin/xz
+configure: will use system package and not install SPKG xz
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG python3...
+checking whether any of libpng bzip2 xz libffi is installed as or will be installed as SPKG... no
+checking for python3 >= 3.6.0, < 3.10.0 with modules sqlite3, ctypes, math, hashlib, crypt, readline, socket, zlib, distutils.core... 
+checking ... whether /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 is good... yes
+checking for python3 >= 3.6.0, < 3.10.0 with modules sqlite3, ctypes, math, hashlib, crypt, readline, socket, zlib, distutils.core... /Library/Frameworks/Python.framework/Versions/3.7/bin/python3
+configure: will use system package and not install SPKG python3
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG r...
+configure: r has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG _recommended...
+configure: no suitable system package found for SPKG _recommended
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG rw...
+configure: rw has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG sqlite...
+configure: SPKG sqlite is not required on this system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG suitesparse...
+configure: suitesparse has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG symmetrica...
+configure: symmetrica has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG sympow...
+configure: sympow has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG tachyon...
+configure: tachyon has already been installed by SageMath
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG tox...
+checking for tox >= 2.5.0... 
+configure: no suitable system package found for SPKG tox
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG yasm...
+configure: SPKG yasm is not required on this system
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG zeromq...
+checking zmq.h usability... yes
+checking zmq.h presence... yes
+checking for zmq.h... yes
+checking for ZMQ version >= 4.2.5... yes
+configure: will use system package and not install SPKG zeromq
+-----------------------------------------------------------------------------
+Checking whether SageMath should install SPKG zn_poly...
+configure: zn_poly has already been installed by SageMath
+## ----------------------------------------------------------------------- ##
+## Build status for each package:                                          ##
+## ----------------------------------------------------------------------- ##
+4ti2-1.6.7.p0:                               does not support check for system package; optional, use "./configure --enable-4ti2" to install
+_recommended-none:                           no suitable system package; optional, use "./configure --enable-_recommended" to install
+alabaster-0.7.12:                            does not support check for system package; will be installed as an SPKG
+appnope-0.1.0.p0:                            does not support check for system package; will be installed as an SPKG
+arb-2.18.1:                                  already installed as an SPKG
+atlas-3.10.2.p3:                             not required on your platform; SPKG will not be installed
+attrs-19.3.0:                                does not support check for system package; will be installed as an SPKG
+awali-1.0.2-190218:                          does not support check for system package; experimental, use "./configure --enable-awali" to install
+babel-2.6.0:                                 does not support check for system package; will be installed as an SPKG
+backcall-0.1.0:                              does not support check for system package; will be installed as an SPKG
+barvinok-0.41.1:                             does not support check for system package; optional, use "./configure --enable-barvinok" to install
+beautifulsoup4-none:                         does not support check for system package; optional pip package; use "./sage -i beautifulsoup4" to install
+benzene-20130630:                            does not support check for system package; optional, use "./configure --enable-benzene" to install
+biopython-none:                              does not support check for system package; optional pip package; use "./sage -i biopython" to install
+bleach-3.1.5:                                does not support check for system package; will be installed as an SPKG
+bliss-0.73+debian-1+sage-2016-08-02.p0:      does not support check for system package; optional, use "./configure --enable-bliss" to install
+boost-1_66_0:                                using system package; SPKG will not be installed
+boost_cropped-1.66.0.p0:                     using system package; SPKG will not be installed
+brial-1.2.8:                                 already installed as an SPKG
+buckygen-1.1:                                does not support check for system package; optional, use "./configure --enable-buckygen" to install
+bzip2-1.0.6-20150304.p0:                     using system package; SPKG will not be installed
+cbc-2.9.4.p0:                                no suitable system package; optional, use "./configure --enable-cbc" to install
+ccache-3.3.4:                                does not support check for system package; optional, use "./configure --enable-ccache" to install
+cddlib-0.94j:                                already installed as an SPKG
+certifi-2020.11.8:                           does not support check for system package; will be installed as an SPKG
+cffi-1.14.3:                                 does not support check for system package; will be installed as an SPKG
+cgal-none:                                   does not support check for system package; optional, use "./configure --enable-cgal" to install
+cgal_swig_bindings-5.0:                      does not support check for system package; optional, use "./configure --enable-cgal_swig_bindings" to install
+cliquer-1.21.p4:                             already installed as an SPKG
+cmake-3.18.2:                                using system package; SPKG will not be installed
+cocoalib-0.99564:                            does not support check for system package; experimental, use "./configure --enable-cocoalib" to install
+combinatorial_designs-20140630.p0:           does not support check for system package; will be installed as an SPKG
+compilerwrapper-1.2:                         does not support check for system package; experimental, use "./configure --enable-compilerwrapper" to install
+configure-2fc350e432bf89430424a9db1b5e0f4cc88b75e8:does not support check for system package; came preinstalled with the SageMath tarball
+conway_polynomials-0.5:                      does not support check for system package; will be installed as an SPKG
+coxeter3-8ac9c71723c8ca57a836d6381aed125261e44e9e.p0:no suitable system package; optional, use "./configure --enable-coxeter3" to install
+cryptominisat-5.6.8:                         does not support check for system package; optional, use "./configure --enable-cryptominisat" to install
+csdp-6.2.p0:                                 does not support check for system package; optional, use "./configure --enable-csdp" to install
+cunningham_tables-1.0:                       does not support check for system package; optional, use "./configure --enable-cunningham_tables" to install
+curl-7.62.0.p0:                              using system package; SPKG will not be installed
+cvxopt-1.2.5:                                does not support check for system package; will be installed as an SPKG
+cycler-0.10.0.p0:                            does not support check for system package; will be installed as an SPKG
+cypari-2.1.1:                                does not support check for system package; will be installed as an SPKG
+cysignals-1.10.2:                            does not support check for system package; will be installed as an SPKG
+cython-0.29.21:                              does not support check for system package; will be installed as an SPKG
+d3js-3.4.8:                                  does not support check for system package; optional, use "./configure --enable-d3js" to install
+database_cremona_ellcurve-20190911:          does not support check for system package; optional, use "./configure --enable-database_cremona_ellcurve" to install
+database_jones_numfield-4:                   does not support check for system package; optional, use "./configure --enable-database_jones_numfield" to install
+database_kohel-20160724:                     does not support check for system package; optional, use "./configure --enable-database_kohel" to install
+database_mutation_class-1.0:                 does not support check for system package; optional, use "./configure --enable-database_mutation_class" to install
+database_odlyzko_zeta-20061209:              does not support check for system package; optional, use "./configure --enable-database_odlyzko_zeta" to install
+database_stein_watkins-20110713:             does not support check for system package; optional, use "./configure --enable-database_stein_watkins" to install
+database_stein_watkins_mini-20070827:        does not support check for system package; optional, use "./configure --enable-database_stein_watkins_mini" to install
+database_symbolic_data-20070206:             does not support check for system package; optional, use "./configure --enable-database_symbolic_data" to install
+dateutil-2.8.1:                              does not support check for system package; will be installed as an SPKG
+decorator-4.4.2:                             does not support check for system package; will be installed as an SPKG
+deformation-d05941b.p0:                      does not support check for system package; experimental, use "./configure --enable-deformation" to install
+defusedxml-0.6.0:                            does not support check for system package; will be installed as an SPKG
+docutils-0.14:                               does not support check for system package; will be installed as an SPKG
+dot2tex-2.11.3.p0:                           does not support check for system package; optional, use "./configure --enable-dot2tex" to install
+e_antic-0.1.8:                               does not support check for system package; optional, use "./configure --enable-e_antic" to install
+ecl-20.4.24.p1:                              does not support check for system package; will be installed as an SPKG
+eclib-20190909:                              already installed as an SPKG
+ecm-7.0.4.p2:                                already installed as an SPKG
+elliptic_curves-0.8.1:                       does not support check for system package; will be installed as an SPKG
+entrypoints-0.3:                             does not support check for system package; will be installed as an SPKG
+fflas_ffpack-2.4.3:                          already installed as an SPKG
+flint-2.6.3:                                 already installed as an SPKG
+flintqs-1.0.p0:                              already installed as an SPKG
+fplll-5.3.3:                                 already installed as an SPKG
+fpylll-0.5.2dev:                             does not support check for system package; will be installed as an SPKG
+freetype-2.10.1:                             using system package; SPKG will not be installed
+fricas-1.3.6:                                does not support check for system package; optional, use "./configure --enable-fricas" to install
+frobby-0.9.0.p2:                             does not support check for system package; optional, use "./configure --enable-frobby" to install
+gambit-15.1.1.p0:                            does not support check for system package; experimental, use "./configure --enable-gambit" to install
+gap-4.11.0.p1:                               does not support check for system package; will be installed as an SPKG
+gap3-04jul17:                                does not support check for system package; experimental, use "./configure --enable-gap3" to install
+gap_jupyter-0.9:                             does not support check for system package; optional, use "./configure --enable-gap_jupyter" to install
+gap_packages-4.11.0.p1:                      does not support check for system package; optional, use "./configure --enable-gap_packages" to install
+gc-8.0.4:                                    using system package; SPKG will not be installed
+gcc-9.2.0:                                   using system package; SPKG will not be installed
+gdb-8.2:                                     does not support check for system package; experimental, use "./configure --enable-gdb" to install
+gf2x-1.3.0:                                  already installed as an SPKG
+gfan-0.6.2.p1:                               already installed as an SPKG
+gfortran-9.2.0:                              using system package; SPKG will not be installed
+giac-1.5.0.87p2.p1:                          already installed as an SPKG
+git-2.11.0:                                  using system package; SPKG will not be installed
+givaro-4.1.1:                                already installed as an SPKG
+glpk-4.65.p0:                                using system package; SPKG will not be installed
+glucose-4.1:                                 does not support check for system package; optional, use "./configure --enable-glucose" to install
+gmp-6.2.0:                                   using system package; SPKG will not be installed
+gmpy2-2.1.0b5:                               does not support check for system package; will be installed as an SPKG
+gp2c-0.0.10.p0:                              no suitable system package; optional, use "./configure --enable-gp2c" to install
+graphs-20161026.p0:                          does not support check for system package; will be installed as an SPKG
+gsl-2.6:                                     already installed as an SPKG
+html5lib-1.0.1:                              does not support check for system package; will be installed as an SPKG
+iconv-1.15:                                  using system package; SPKG will not be installed
+igraph-0.8.3:                                no suitable system package; optional, use "./configure --enable-igraph" to install
+imagesize-1.1.0:                             does not support check for system package; will be installed as an SPKG
+iml-1.0.4p1.p2:                              already installed as an SPKG
+importlib_metadata-1.7.0:                    does not support check for system package; will be installed as an SPKG
+ipykernel-5.2.1:                             does not support check for system package; will be installed as an SPKG
+ipython-7.13.0:                              does not support check for system package; will be installed as an SPKG
+ipython_genutils-0.2.0:                      does not support check for system package; will be installed as an SPKG
+ipywidgets-7.5.1:                            does not support check for system package; will be installed as an SPKG
+isl-0.20:                                    using system package; SPKG will not be installed
+jedi-0.17.0:                                 does not support check for system package; will be installed as an SPKG
+jinja2-2.11.2:                               does not support check for system package; will be installed as an SPKG
+jmol-14.29.52:                               does not support check for system package; will be installed as an SPKG
+jsonschema-3.2.0:                            does not support check for system package; will be installed as an SPKG
+jupymake-0.9:                                does not support check for system package; optional, use "./configure --enable-jupymake" to install
+jupyter_client-6.1.6:                        does not support check for system package; will be installed as an SPKG
+jupyter_core-4.6.3:                          does not support check for system package; will be installed as an SPKG
+jupyter_jsmol-0.2.4:                         does not support check for system package; will be installed as an SPKG
+jupyterlab-none:                             does not support check for system package; optional pip package; use "./sage -i jupyterlab" to install
+jupyterlab_widgets-2.0:                      does not support check for system package; optional, use "./configure --enable-jupyterlab_widgets" to install
+kenzo-1.1.9:                                 does not support check for system package; optional, use "./configure --enable-kenzo" to install
+kiwisolver-1.0.1:                            does not support check for system package; will be installed as an SPKG
+latte_int-1.7.5.p0:                          does not support check for system package; optional, use "./configure --enable-latte_int" to install
+lcalc-1.23.p20:                              already installed as an SPKG
+libatomic_ops-7.6.10:                        using system package; SPKG will not be installed
+libbraiding-1.0.p0:                          already installed as an SPKG
+libffi-3.2.1:                                using system package; SPKG will not be installed
+libgd-2.1.1.1.p1:                            using system package; SPKG will not be installed
+libhomfly-1.02r6:                            already installed as an SPKG
+libnauty-none:                               using system package; SPKG will not be installed
+libogg-1.3.1.p0:                             does not support check for system package; optional, use "./configure --enable-libogg" to install
+libpng-1.6.29.p1:                            using system package; SPKG will not be installed
+libsemigroups-1.0.9:                         no suitable system package; optional, use "./configure --enable-libsemigroups" to install
+libtheora-1.1.1:                             does not support check for system package; experimental, use "./configure --enable-libtheora" to install
+libxml2-none:                                using system package; SPKG will not be installed
+lidia-2.3.0+latte-patches-2019-05-02:        does not support check for system package; optional, use "./configure --enable-lidia" to install
+lie-2.2.2:                                   does not support check for system package; experimental, use "./configure --enable-lie" to install
+linbox-1.6.3.p1:                             does not support check for system package; will be installed as an SPKG
+lrcalc-1.2.p1:                               already installed as an SPKG
+lrslib-062+autotools-2017-03-03.p1:          does not support check for system package; optional, use "./configure --enable-lrslib" to install
+m4ri-20200115:                               already installed as an SPKG
+m4rie-20200115:                              already installed as an SPKG
+markupsafe-1.1.1:                            does not support check for system package; will be installed as an SPKG
+mathjax-2.7.4.p0:                            does not support check for system package; will be installed as an SPKG
+matplotlib-3.3.2:                            does not support check for system package; will be installed as an SPKG
+maxima-5.44.0:                               does not support check for system package; will be installed as an SPKG
+mcqd-1.0.p0:                                 does not support check for system package; optional, use "./configure --enable-mcqd" to install
+meataxe-1.0.p0:                              does not support check for system package; optional, use "./configure --enable-meataxe" to install
+mistune-0.8.4:                               does not support check for system package; will be installed as an SPKG
+modular_decomposition-20100607:              does not support check for system package; experimental, use "./configure --enable-modular_decomposition" to install
+mpc-1.1.0:                                   using system package; SPKG will not be installed
+mpfi-1.5.2:                                  using system package; SPKG will not be installed
+mpfr-4.0.1.p0:                               using system package; SPKG will not be installed
+mpfrcx-0.5:                                  does not support check for system package; optional, use "./configure --enable-mpfrcx" to install
+mpir-3.0.0-644faf502c56f97d9accd301965fc57d6ec70868.p0:using system package; SPKG will not be installed
+mpmath-1.1.0:                                does not support check for system package; will be installed as an SPKG
+nauty-27r1.p1:                               using system package; SPKG will not be installed
+nbconvert-5.6.1:                             does not support check for system package; will be installed as an SPKG
+nbformat-5.0.7:                              does not support check for system package; will be installed as an SPKG
+ncurses-6.0.p0:                              using system package; SPKG will not be installed
+networkx-2.5:                                does not support check for system package; will be installed as an SPKG
+nibabel-none:                                does not support check for system package; optional pip package; use "./sage -i nibabel" to install
+ninja_build-1.8.2:                           using system package; SPKG will not be installed
+nodeenv-none:                                does not support check for system package; optional pip package; use "./sage -i nodeenv" to install
+nodejs-12.18.3:                              does not support check for system package; optional, use "./configure --enable-nodejs" to install
+normaliz-3.8.9:                              does not support check for system package; optional, use "./configure --enable-normaliz" to install
+nose-1.3.7:                                  does not support check for system package; will be installed as an SPKG
+notebook-6.1.1:                              does not support check for system package; will be installed as an SPKG
+notedown-1.5.1:                              does not support check for system package; optional, use "./configure --enable-notedown" to install
+ntl-11.4.3:                                  already installed as an SPKG
+numpy-1.19.4:                                does not support check for system package; will be installed as an SPKG
+openblas-0.3.9:                              already installed as an SPKG
+openssl-1.1.1h:                              no suitable system package; optional, use "./configure --enable-openssl" to install
+p_group_cohomology-3.3.2:                    does not support check for system package; optional, use "./configure --enable-p_group_cohomology" to install
+packaging-20.4:                              does not support check for system package; will be installed as an SPKG
+palp-2.11:                                   already installed as an SPKG
+pandoc-none:                                 using system package; SPKG will not be installed
+pandoc_attributes-8bc82f6d:                  does not support check for system package; optional, use "./configure --enable-pandoc_attributes" to install
+pandocfilters-1.4.2:                         does not support check for system package; will be installed as an SPKG
+pari-2.11.4.p0:                              already installed as an SPKG
+pari_elldata-20161017:                       no suitable system package; optional, use "./configure --enable-pari_elldata" to install
+pari_galdata-20080411.p0:                    already installed as an SPKG
+pari_galpol-20180625:                        no suitable system package; optional, use "./configure --enable-pari_galpol" to install
+pari_jupyter-1.3.2:                          does not support check for system package; optional, use "./configure --enable-pari_jupyter" to install
+pari_nftables-20080929:                      no suitable system package; optional, use "./configure --enable-pari_nftables" to install
+pari_seadata-20090618:                       no suitable system package; optional, use "./configure --enable-pari_seadata" to install
+pari_seadata_small-20090618.p0:              already installed as an SPKG
+parso-0.7.0:                                 does not support check for system package; will be installed as an SPKG
+patch-2.7.5:                                 using system package; SPKG will not be installed
+pcre-8.40.p2:                                using system package; SPKG will not be installed
+perl_cpan_polymake_prereq-none:              no suitable system package; optional, use "./configure --enable-perl_cpan_polymake_prereq" to install
+perl_term_readline_gnu-1.35:                 no suitable system package; experimental, use "./configure --enable-perl_term_readline_gnu" to install
+pexpect-4.8.0:                               does not support check for system package; will be installed as an SPKG
+pickleshare-0.7.5:                           does not support check for system package; will be installed as an SPKG
+pillow-7.2.0:                                does not support check for system package; will be installed as an SPKG
+pip-20.2.3:                                  does not support check for system package; will be installed as an SPKG
+pkgconf-0.9.7.p2:                            using system package; SPKG will not be installed
+pkgconfig-1.5.1:                             does not support check for system package; will be installed as an SPKG
+planarity-3.0.1.0:                           already installed as an SPKG
+plantri-4.5:                                 does not support check for system package; optional, use "./configure --enable-plantri" to install
+polylib-5.22.5:                              does not support check for system package; optional, use "./configure --enable-polylib" to install
+polymake-3.4:                                does not support check for system package; experimental, use "./configure --enable-polymake" to install
+polytopes_db-20170220.p0:                    does not support check for system package; will be installed as an SPKG
+polytopes_db_4d-1.0:                         does not support check for system package; optional, use "./configure --enable-polytopes_db_4d" to install
+ppl-1.2.p1:                                  using system package; SPKG will not be installed
+pplpy-0.8.4:                                 does not support check for system package; will be installed as an SPKG
+primecount-5.1:                              does not support check for system package; optional, use "./configure --enable-primecount" to install
+prometheus_client-0.8.0:                     does not support check for system package; will be installed as an SPKG
+prompt_toolkit-3.0.5:                        does not support check for system package; will be installed as an SPKG
+psutil-5.2.0.p2:                             does not support check for system package; will be installed as an SPKG
+ptyprocess-0.5.1.p0:                         does not support check for system package; will be installed as an SPKG
+pybind11-2.6.0:                              does not support check for system package; will be installed as an SPKG
+pybtex-none:                                 does not support check for system package; optional pip package; use "./sage -i pybtex" to install
+pycosat-0.6.3:                               does not support check for system package; optional, use "./configure --enable-pycosat" to install
+pycparser-2.20:                              does not support check for system package; will be installed as an SPKG
+pycygwin-0.1:                                does not support check for system package; will be installed as an SPKG
+pyflakes-none:                               does not support check for system package; optional pip package; use "./sage -i pyflakes" to install
+pygments-2.3.1.p0:                           does not support check for system package; will be installed as an SPKG
+pynac-0.7.26.sage-2020-04-03.p0:             does not support check for system package; will be installed as an SPKG
+pynormaliz-2.13:                             does not support check for system package; optional, use "./configure --enable-pynormaliz" to install
+pyopenssl-none:                              does not support check for system package; optional pip package; use "./sage -i pyopenssl" to install
+pyparsing-2.4.7:                             does not support check for system package; will be installed as an SPKG
+pyrsistent-0.16.0:                           does not support check for system package; will be installed as an SPKG
+pysingular-0.9.5:                            does not support check for system package; optional, use "./configure --enable-pysingular" to install
+pytest-none:                                 does not support check for system package; optional pip package; use "./sage -i pytest" to install
+python3-3.8.5:                               using system package; SPKG will not be installed
+python_igraph-0.8.3:                         does not support check for system package; optional, use "./configure --enable-python_igraph" to install
+pytz-2020.4:                                 does not support check for system package; will be installed as an SPKG
+pyx-none:                                    does not support check for system package; optional pip package; use "./sage -i pyx" to install
+pyzmq-19.0.2:                                does not support check for system package; will be installed as an SPKG
+qepcad-B.1.72:                               does not support check for system package; experimental, use "./configure --enable-qepcad" to install
+qhull-2015-src-7.2.0.p1:                     does not support check for system package; optional, use "./configure --enable-qhull" to install
+r-3.6.3:                                     already installed as an SPKG
+r_jupyter-none:                              does not support check for system package; optional, use "./configure --enable-r_jupyter" to install
+ratpoints-2.1.3.p5:                          does not support check for system package; will be installed as an SPKG
+readline-8.0:                                already installed as an SPKG
+requests-2.13.0:                             does not support check for system package; will be installed as an SPKG
+rpy2-3.3.6:                                  does not support check for system package; will be installed as an SPKG
+rst2ipynb-0.2.2.p0:                          does not support check for system package; optional, use "./configure --enable-rst2ipynb" to install
+rubiks-20070912.p21:                         does not support check for system package; optional, use "./configure --enable-rubiks" to install
+rw-0.7.p0:                                   already installed as an SPKG
+saclib-2.2.7:                                does not support check for system package; optional, use "./configure --enable-saclib" to install
+sage_conf-none:                              does not support check for system package; will be installed as an SPKG
+sage_numerical_backends_coin-9.0b12:         does not support check for system package; optional, use "./configure --enable-sage_numerical_backends_coin" to install
+sage_numerical_backends_cplex-9.0b12:        does not support check for system package; optional, use "./configure --enable-sage_numerical_backends_cplex" to install
+sage_numerical_backends_gurobi-9.0.0:        does not support check for system package; optional, use "./configure --enable-sage_numerical_backends_gurobi" to install
+sage_sws2rst-none:                           does not support check for system package; optional, use "./configure --enable-sage_sws2rst" to install
+sagelib-9.3.beta4:                           does not support check for system package; will be installed as an SPKG
+sagenb_export-3.3:                           does not support check for system package; will be installed as an SPKG
+sagetex-3.5:                                 does not support check for system package; will be installed as an SPKG
+scandir-1.9.0:                               does not support check for system package; will be installed as an SPKG
+scipoptsuite-5.0.1:                          does not support check for system package; experimental, use "./configure --enable-scipoptsuite" to install
+scipy-1.5.4:                                 does not support check for system package; will be installed as an SPKG
+send2trash-1.5.0:                            does not support check for system package; will be installed as an SPKG
+setuptools-49.6.0:                           does not support check for system package; will be installed as an SPKG
+setuptools_scm-4.1.2:                        does not support check for system package; will be installed as an SPKG
+simplegeneric-0.8.1.p0:                      does not support check for system package; will be installed as an SPKG
+singular-4.1.1p2.p0:                         does not support check for system package; will be installed as an SPKG
+singular_jupyter-0.9.7:                      does not support check for system package; optional, use "./configure --enable-singular_jupyter" to install
+sip-4.18:                                    does not support check for system package; optional, use "./configure --enable-sip" to install
+sirocco-2.0.2:                               does not support check for system package; optional, use "./configure --enable-sirocco" to install
+six-1.15.0:                                  does not support check for system package; will be installed as an SPKG
+snowballstemmer-1.2.1.p0:                    does not support check for system package; will be installed as an SPKG
+speaklater-1.3.p0:                           does not support check for system package; optional, use "./configure --enable-speaklater" to install
+sphinx-3.1.2.p0:                             does not support check for system package; will be installed as an SPKG
+sphinxcontrib_applehelp-1.0.2:               does not support check for system package; will be installed as an SPKG
+sphinxcontrib_devhelp-1.0.2:                 does not support check for system package; will be installed as an SPKG
+sphinxcontrib_htmlhelp-1.0.3:                does not support check for system package; will be installed as an SPKG
+sphinxcontrib_jsmath-1.0.1:                  does not support check for system package; will be installed as an SPKG
+sphinxcontrib_qthelp-1.0.3:                  does not support check for system package; will be installed as an SPKG
+sphinxcontrib_serializinghtml-1.1.4:         does not support check for system package; will be installed as an SPKG
+sphinxcontrib_websupport-1.2.1:              does not support check for system package; will be installed as an SPKG
+sqlalchemy-none:                             does not support check for system package; optional pip package; use "./sage -i sqlalchemy" to install
+sqlite-3290000:                              not required on your platform; SPKG will not be installed
+suitesparse-5.6.0:                           already installed as an SPKG
+surf-1.0.6-gcc6:                             does not support check for system package; experimental, use "./configure --enable-surf" to install
+swig-none:                                   does not support check for system package; optional, use "./configure --enable-swig" to install
+symmetrica-3.0.1:                            already installed as an SPKG
+sympow-2.023.6:                              already installed as an SPKG
+sympy-1.7:                                   does not support check for system package; will be installed as an SPKG
+tachyon-0.98.9.p7:                           already installed as an SPKG
+tdlib-0.3.1.p0:                              does not support check for system package; optional, use "./configure --enable-tdlib" to install
+termcap-1.3.1.p3:                            does not support check for system package; optional, use "./configure --enable-termcap" to install
+terminado-0.8.3:                             does not support check for system package; will be installed as an SPKG
+testpath-0.4.4:                              does not support check for system package; will be installed as an SPKG
+texlive-none:                                does not support check for system package; optional, use "./configure --enable-texlive" to install
+texttable-1.6.3:                             does not support check for system package; optional, use "./configure --enable-texttable" to install
+thebe-9624e0a0.p0:                           does not support check for system package; will be installed as an SPKG
+threejs-r122:                                does not support check for system package; will be installed as an SPKG
+tides-2.0.p0:                                does not support check for system package; optional, use "./configure --enable-tides" to install
+topcom-0.17.7:                               does not support check for system package; optional, use "./configure --enable-topcom" to install
+tornado-6.0.4:                               does not support check for system package; will be installed as an SPKG
+tox-none:                                    no suitable system package; optional pip package; use "./sage -i tox" to install
+traitlets-4.3.3:                             does not support check for system package; will be installed as an SPKG
+tzlocal-2.1:                                 does not support check for system package; will be installed as an SPKG
+valgrind-3.14.0:                             does not support check for system package; experimental, use "./configure --enable-valgrind" to install
+vcversioner-2.16.0.0.p0:                     does not support check for system package; will be installed as an SPKG
+wcwidth-0.1.7.p0:                            does not support check for system package; will be installed as an SPKG
+webencodings-0.5.1:                          does not support check for system package; will be installed as an SPKG
+wheel-0.34.2:                                does not support check for system package; will be installed as an SPKG
+widgetsnbextension-3.5.1:                    does not support check for system package; will be installed as an SPKG
+xz-5.2.2.p0:                                 using system package; SPKG will not be installed
+yasm-1.3.0.p0:                               not required on your platform; SPKG will not be installed
+zeromq-4.2.5:                                using system package; SPKG will not be installed
+zipp-0.5.2:                                  does not support check for system package; will be installed as an SPKG
+zlib-1.2.11.p0:                              using system package; SPKG will not be installed
+zn_poly-0.9.2:                               already installed as an SPKG
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+configure:
+
+    notice: the following SPKGs did not find equivalent system packages:
+
+        _recommended cbc coxeter3 gp2c igraph libsemigroups openssl pari_elldata pari_galpol pari_nftables pari_seadata perl_cpan_polymake_prereq perl_term_readline_gnu tox
+        
+checking for the package system in use... homebrew
+configure:
+
+    hint: installing the following system packages, if not
+    already present, is recommended and may avoid having to
+    build them (though some may have to be built anyway):
+
+      $ brew install pandoc ffmpeg imagemagick texinfo igraph openssl tox
+    
+    Homebrew can issue suggestions regarding keg-only packages.
+    The following command is to automatically apply these suggestions
+    for packages relevant for Sage to make them available for the build.
+    Run it once to apply the suggestions for the current session.
+    Add it to your shell profile to apply them for all future sessions.
+    
+      $ source /Users/binshuaiwang/Research/sage_develop/sage/.homebrew-build-env
+
+    After installation, re-run configure using:
+
+      $ ./config.status --recheck && ./config.status
+                
+config.status: creating build/make/Makefile-auto
+config.status: creating build/make/Makefile
+config.status: creating src/bin/sage-env-config
+config.status: creating src/bin/sage-src-env-config
+config.status: creating build/bin/sage-build-env-config
+config.status: creating build/pkgs/sage_conf/src/sage_conf.py
+config.status: creating build/pkgs/sage_conf/src/setup.cfg
+config.status: executing depfiles commands
+config.status: executing mkdirs commands
+config.status: creating directory /Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs
+config.status: creating directory local
+config.status: creating directory local/bin
+config.status: creating directory local/etc
+config.status: creating directory local/include
+config.status: creating directory local/lib
+config.status: creating directory local/lib/pkgconfig
+config.status: creating directory local/share
+config.status: creating directory local/var/lib/sage/installed
+build/bin/sage-logger \
+		"cd build/make && ./install 'all-build'" logs/install.log
+*** ALL ENVIRONMENT VARIABLES BEFORE BUILD: ***
+HOME=/Users/binshuaiwang
+LC_CTYPE=UTF-8
+LESS=-R
+LOGNAME=binshuaiwang
+LSCOLORS=Gxfxcxdxbxegedabagacad
+MAKE=make
+MAKEFLAGS= V=1
+MAKELEVEL=1
+MFLAGS=
+PAGER=less
+PATH=/Users/binshuaiwang/Research/sage_develop/sage/build/bin:/Users/binshuaiwang/Research/sage_develop/sage/src/bin:/Users/binshuaiwang/Research/sage_develop/sage/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+PWD=/Users/binshuaiwang/Research/sage_develop/sage/build/make
+PYTHONPATH=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_ENV_CONFIG_SOURCED=1
+SAGE_LOCAL=/Users/binshuaiwang/Research/sage_develop/sage/local
+SAGE_LOGFILE=logs/install.log
+SAGE_LOGS=/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs
+SAGE_NUM_THREADS=1
+SAGE_NUM_THREADS_PARALLEL=8
+SAGE_ORIG_PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/Library/Apple/usr/bin
+SAGE_ORIG_PATH_SET=True
+SAGE_PKGCONFIG=/Users/binshuaiwang/Research/sage_develop/sage/local/lib/pkgconfig
+SAGE_ROOT=/Users/binshuaiwang/Research/sage_develop/sage
+SAGE_SHARE=/Users/binshuaiwang/Research/sage_develop/sage/local/share
+SAGE_SPKG_INST=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed
+SAGE_SPKG_WHEELS=/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/wheels
+SAGE_SRC=/Users/binshuaiwang/Research/sage_develop/sage/src
+SAGE_VENV=/Users/binshuaiwang/Research/sage_develop/sage/local
+SHELL=/bin/zsh
+SHLVL=5
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.4vV3Dsvixe/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=FEE8DFDD-51A0-4CAC-B40C-2207508C121D
+TMPDIR=/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/
+USER=binshuaiwang
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+ZSH=/Users/binshuaiwang/.oh-my-zsh
+_=/usr/bin/env
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+***********************************************
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[2]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[2]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[2]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory /Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy
+make[2]: `/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/.dummy' is up to date.
+make --no-print-directory all-sage
+make --no-print-directory sage_conf-no-deps
+cd '/Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sage_conf' && . '/Users/binshuaiwang/Research/sage_develop/sage/src/bin/sage-env-config' && . '/Users/binshuaiwang/Research/sage_develop/sage/src/bin/sage-env' && . '/Users/binshuaiwang/Research/sage_develop/sage/build/bin/sage-build-env-config' && . '/Users/binshuaiwang/Research/sage_develop/sage/build/bin/sage-build-env' && sage-logger -p '/Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sage_conf/spkg-install' '/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs/sage_conf-none.log'
+[sage_conf-none] running bdist_wheel
+[sage_conf-none] running build
+[sage_conf-none] running build_py
+[sage_conf-none] copying sage_conf.py -> build/lib
+[sage_conf-none] running build_scripts
+[sage_conf-none] copying bin/sage-env-config -> build/scripts-3.7
+[sage_conf-none] changing mode of build/scripts-3.7/sage-env-config from 644 to 755
+[sage_conf-none] installing to /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG
+[sage_conf-none] running install
+[sage_conf-none] running install_lib
+[sage_conf-none] copying build/lib/sage_conf.py -> /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG
+[sage_conf-none] running install_egg_info
+[sage_conf-none] running egg_info
+[sage_conf-none] writing sage_conf.egg-info/PKG-INFO
+[sage_conf-none] writing dependency_links to sage_conf.egg-info/dependency_links.txt
+[sage_conf-none] writing entry points to sage_conf.egg-info/entry_points.txt
+[sage_conf-none] writing top-level names to sage_conf.egg-info/top_level.txt
+[sage_conf-none] reading manifest template 'MANIFEST.in'
+[sage_conf-none] writing manifest file 'sage_conf.egg-info/SOURCES.txt'
+[sage_conf-none] Copying sage_conf.egg-info to /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4-py3.7.egg-info
+[sage_conf-none] running install_scripts
+[sage_conf-none] creating /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4.data
+[sage_conf-none] creating /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4.data/scripts
+[sage_conf-none] copying build/scripts-3.7/sage-env-config -> /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4.data/scripts
+[sage_conf-none] changing mode of /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4.data/scripts/sage-env-config to 755
+[sage_conf-none] creating /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG/sage_conf-9.3b4.dist-info/WHEEL
+[sage_conf-none] creating 'dist/sage_conf-9.3b4-py3-none-any.whl' and adding '/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG' to it
+[sage_conf-none] adding 'sage_conf.py'
+[sage_conf-none] adding 'sage_conf-9.3b4.data/scripts/sage-env-config'
+[sage_conf-none] adding 'sage_conf-9.3b4.dist-info/METADATA'
+[sage_conf-none] adding 'sage_conf-9.3b4.dist-info/WHEEL'
+[sage_conf-none] adding 'sage_conf-9.3b4.dist-info/entry_points.txt'
+[sage_conf-none] adding 'sage_conf-9.3b4.dist-info/top_level.txt'
+[sage_conf-none] adding 'sage_conf-9.3b4.dist-info/RECORD'
+[sage_conf-none] removing /var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/tmp.zE0pdwwG
+[sage_conf-none] Using pip 20.2.3 from /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/pip (python 3.7)
+[sage_conf-none] Non-user install because user site-packages disabled
+[sage_conf-none] Ignoring indexes: https://pypi.org/simple
+[sage_conf-none] Created temporary directory: /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-ephem-wheel-cache-2hg3z1qd
+[sage_conf-none] Created temporary directory: /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s
+[sage_conf-none] Initialized build tracking at /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s
+[sage_conf-none] Created build tracker: /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s
+[sage_conf-none] Entered build tracker: /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s
+[sage_conf-none] Created temporary directory: /private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-install-htf0grge
+[sage_conf-none] Processing ./dist/sage_conf-9.3b4-py3-none-any.whl
+[sage_conf-none]   Added sage-conf==9.3b4 from file:///Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sage_conf/src/dist/sage_conf-9.3b4-py3-none-any.whl to build tracker '/private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s'
+[sage_conf-none]   Removed sage-conf==9.3b4 from file:///Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sage_conf/src/dist/sage_conf-9.3b4-py3-none-any.whl from build tracker '/private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s'
+[sage_conf-none] Installing collected packages: sage-conf
+[sage_conf-none] 
+[sage_conf-none]   changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-config to 755
+[sage_conf-none] Successfully installed sage-conf-9.3b5
+[sage_conf-none] Removed build tracker: '/private/var/folders/83/5bth00bn2m37tw719j2f2p380000gn/T/pip-req-tracker-lc5nk4_s'
+touch "/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/sage_conf-none"
+make --no-print-directory sagelib-no-deps
+cd '/Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sagelib' && . '/Users/binshuaiwang/Research/sage_develop/sage/src/bin/sage-env-config' && . '/Users/binshuaiwang/Research/sage_develop/sage/src/bin/sage-env' && . '/Users/binshuaiwang/Research/sage_develop/sage/build/bin/sage-build-env-config' && . '/Users/binshuaiwang/Research/sage_develop/sage/build/bin/sage-build-env' && sage-logger -p '/Users/binshuaiwang/Research/sage_develop/sage/build/pkgs/sagelib/spkg-install' '/Users/binshuaiwang/Research/sage_develop/sage/logs/pkgs/sagelib-9.3.beta4.log'
+[sagelib-9.3.beta4] Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/c++/4.2.1
+[sagelib-9.3.beta4] Discovering Python/Cython source code....
+[sagelib-9.3.beta4] distributions = ['']
+[sagelib-9.3.beta4] Discovered Python/Cython sources, time: 1.36 seconds.
+[sagelib-9.3.beta4] running build
+[sagelib-9.3.beta4] Generating auto-generated sources
+[sagelib-9.3.beta4] Building interpreters for fast_callable
+[sagelib-9.3.beta4] running build_cython
+[sagelib-9.3.beta4] Enabling Cython debugging support
+[sagelib-9.3.beta4] Updating Cython code....
+[sagelib-9.3.beta4] Finished Cythonizing, time: 3.48 seconds.
+[sagelib-9.3.beta4] running build_py
+[sagelib-9.3.beta4] running build_ext
+[sagelib-9.3.beta4] Executing 0 commands (using 1 thread)
+[sagelib-9.3.beta4] Time to execute 0 commands: 0.11 seconds.
+[sagelib-9.3.beta4] Total time spent compiling C/C++ extensions: 0.19 seconds.
+[sagelib-9.3.beta4] running build_scripts
+[sagelib-9.3.beta4] running install
+[sagelib-9.3.beta4] running install_lib
+[sagelib-9.3.beta4] byte-compiling /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/sage/ext_data/nbconvert/postprocess.py to postprocess.cpython-37.pyc
+[sagelib-9.3.beta4] running install_scripts
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-startuptime.py to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-ipynb2rst to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-rst2txt to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-notebook to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-inline-fortran to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-valgrind to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-coverage to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-update-src to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-run to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-ipython to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-run-cython to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-grep to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-venv-config to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-rebaseall.sh to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-update-version to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-coverageall to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-rebase.sh to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-rebaseall.bat to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/math-readline to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-env to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-list-packages to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-callgrind to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-location to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-runtests to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-rebase.bat to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-fixdoctests to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-preparse to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-python to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-cleaner to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-native-execute to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-omega to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-massif to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-open to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-cachegrind to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-grepdoc to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-num-threads.py to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-cython to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-version.sh to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-gdb-commands to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage-eval to 755
+[sagelib-9.3.beta4] changing mode of /Users/binshuaiwang/Research/sage_develop/sage/local/bin/sage to 755
+[sagelib-9.3.beta4] running install_egg_info
+[sagelib-9.3.beta4] Removing /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/sage-9.3.beta4-py3.7.egg-info
+[sagelib-9.3.beta4] Writing /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/sage-9.3.beta4-py3.7.egg-info
+[sagelib-9.3.beta4] - cleaning /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages
+[sagelib-9.3.beta4] Cleaning up stale file: /Users/binshuaiwang/Research/sage_develop/sage/local/lib/python3.7/site-packages/sage/ext_data/nbconvert/__pycache__/postprocess.cpython-37.pyc
+[sagelib-9.3.beta4] - cleaning build/lib.macosx-10.9-x86_64-3.7
+[sagelib-9.3.beta4] Finished cleaning, time: 0.26 seconds.
+[sagelib-9.3.beta4] 
+[sagelib-9.3.beta4] real	0m7.555s
+[sagelib-9.3.beta4] user	0m3.758s
+[sagelib-9.3.beta4] sys	0m2.275s
+touch "/Users/binshuaiwang/Research/sage_develop/sage/local/var/lib/sage/installed/sagelib-9.3.beta4"
+
+real	0m11.010s
+user	0m5.915s
+sys	0m3.032s
+Sage build/upgrade complete!
+➜  sage git:(cgal_swig_drk) ✗ ./sage 
+Forcing sage-location, probably because a new package was installed.
+Cleaning up, do not interrupt this.
+Done cleaning.
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.3.beta4, Release Date: 2020-12-14               │
+│ Using Python 3.7.9. Type "help()" for help.                        │
+└────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Warning: this is a prerelease version, and it may be unstable.     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+sage: preparser(False)                                                                                                                                                                                   
+sage: from __future__ import print_function 
+....: from CGAL.CGAL_Kernel import Point_3 
+....: from CGAL.CGAL_Kernel import Vector_3 
+....: from CGAL.CGAL_Kernel import Plane_3 
+....: from CGAL.CGAL_Kernel import Segment_3 
+....: from CGAL.CGAL_Polyhedron_3 import Polyhedron_3 
+....: from CGAL.CGAL_AABB_tree import AABB_tree_Polyhedron_3_Facet_handle 
+....:  
+....: p = Point_3(1.0, 0.0, 0.0) 
+....: q = Point_3(0.0, 1.0, 0.0) 
+....: r = Point_3(0.0, 0.0, 1.0) 
+....: s = Point_3(0.0, 0.0, 0.0) 
+....: polyhedron = Polyhedron_3() 
+....: polyhedron.make_tetrahedron(p, q, r, s) 
+....:                                                                                                                                                                                                    
+<CGAL.CGAL_Polyhedron_3.Polyhedron_3_Halfedge_handle; proxy of <Swig Object of type 'Polyhedron_3_Halfedge_handle_SWIG_wrapper *' at 0x7f9263d64f30> >
+....: print(points.size(), "points after upsampling") 
+....:  
+....: avg_space = compute_average_spacing(points, k) 
+....: print("Average point spacing is", avg_space) 
+....:  
+....: print("Running wlop_simplify_and_regularize_point_set...") 
+....: wlop_point_set = Point_set_3() 
+....: wlop_simplify_and_regularize_point_set(points,  # input 
+....:                                        wlop_point_set)  # Output 
+....: print("Output of WLOP has", points.size(), "points") 
+....:  
+....: print("Running grid_simplify_point_set...") 
+....: grid_simplify_point_set(points, avg_space/5) 
+....: print(points.size(), "point(s) remaining,", points.garbage_size(), "point(s) removed") 
+....: points.collect_garbage() 
+....:  
+....: print("Running hierarchy_simplify_point_set...") 
+....: hierarchy_simplify_point_set(points) 
+....: print(points.size(), "point(s) remaining,", points.garbage_size(), "point(s) removed") 
+....:  
+....: print("Cancelling removals") 
+....: points.cancel_removals() 
+....: print(points.size(), "point(s) remaining,", points.garbage_size(), "point(s) removed") 
+....:  
+....: print("Running random_simplify_point_set...") 
+....: random_simplify_point_set(points, 1) 
+....: print(points.size(), "point(s) remaining,", points.garbage_size(), "point(s) removed") 
+....: points.collect_garbage() 
+....:  
+....: print("Running remove_outliers...") 
+....: remove_outliers(points, 24, threshold_percent=1.5) 
+....: print(points.size(), "point(s) remaining,", points.garbage_size(), "point(s) removed") 
+....: points.collect_garbage() 
+....:  
+....: points.add_normal_map() 
+....:  
+....: print("Running jet_estimate_normals...") 
+....: jet_estimate_normals(points, 24) 
+....:  
+....: print("Running mst_orient_normals...") 
+....: mst_orient_normals(points, 24) 
+....:  
+....: print("Running pca_estimate_normals...") 
+....: pca_estimate_normals(points, 24) 
+....:  
+....: print("Writing to ply") 
+....: points.write("oni.ply")                                                                                                                                                                            
+Running read_xyz_points...
+0 points read
+------------------------------------------------------------------------
+(no backtrace available)
+------------------------------------------------------------------------
+Unhandled SIGSEGV: A segmentation fault occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+/Users/binshuaiwang/Research/sage_develop/sage/src/bin/sage-python: line 2: 30215 Segmentation fault: 11  sage -python "$@"
+➜  sage git:(cgal_swig_drk) ✗ >....                                                                                                                                                                      
+from CGAL.CGAL_Kernel import Ref_int
+
+
+L = []
+L.append(Point_3(0, 0, 0))
+L.append(Point_3(1, 0, 0))
+L.append(Point_3(0, 1, 0))
+
+T = Delaunay_triangulation_3(L)
+
+n = T.number_of_vertices()
+
+V = []
+V.append(Point_3(0, 0, 1))
+V.append(Point_3(1, 1, 1))
+V.append(Point_3(2, 2, 2))
+
+n = n + T.insert(V)
+
+assert n == 6
+assert T.is_valid()
+
+lt = Ref_Locate_type_3()
+li = Ref_int()
+lj = Ref_int()
+p = Point_3(0, 0, 0)
+
+c = T.locate(p, lt, li, lj)
+assert lt.object() == VERTEX
+assert c.vertex(li.object()).point() == p
+
+
+v = c.vertex((li.object()+1) & 3)
+nc = c.neighbor(li.object())
+
+nli = Ref_int()
+assert nc.has_vertex(v, nli)
+
+T.write_to_file("output", 14)
+
+T1 = Delaunay_triangulation_3()
+T1.read_from_file("output")
+
+assert T1.is_valid()
+assert T1.number_of_vertices() == T.number_of_vertices()
+assert T1.number_of_cells() == T.number_of_cells()
+zsh: parse error near `)'
+➜  sage git:(cgal_swig_drk) ✗ ./sage
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.3.beta4, Release Date: 2020-12-14               │
+│ Using Python 3.7.9. Type "help()" for help.                        │
+└────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Warning: this is a prerelease version, and it may be unstable.     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+....: from CGAL.CGAL_Triangulation_3 import VERTEX 
+....: from CGAL.CGAL_Kernel import Ref_int 
+....:  
+....:  
+....: L = [] 
+....: L.append(Point_3(0, 0, 0)) 
+....: L.append(Point_3(1, 0, 0)) 
+....: L.append(Point_3(0, 1, 0)) 
+....:  
+....: T = Delaunay_triangulation_3(L) 
+....:  
+....: n = T.number_of_vertices() 
+....:  
+....: V = [] 
+....: V.append(Point_3(0, 0, 1)) 
+....: V.append(Point_3(1, 1, 1)) 
+....: V.append(Point_3(2, 2, 2)) 
+....:  
+....: n = n + T.insert(V) 
+....:  
+....: assert n == 6 
+....: assert T.is_valid() 
+....:  
+....: lt = Ref_Locate_type_3() 
+....: li = Ref_int() 
+....: lj = Ref_int() 
+....: p = Point_3(0, 0, 0) 
+....:  
+....: c = T.locate(p, lt, li, lj) 
+....: assert lt.object() == VERTEX 
+....: assert c.vertex(li.object()).point() == p 
+....:  
+....:  
+....: v = c.vertex((li.object()+1) & 3) 
+....: nc = c.neighbor(li.object()) 
+....:  
+....: nli = Ref_int() 
+....: assert nc.has_vertex(v, nli) 
+....:  
+....: T.write_to_file("output", 14) 
+....:  
+....: T1 = Delaunay_triangulation_3() 
+....: T1.read_from_file("output") 
+....:  
+....: assert T1.is_valid() 
+....: assert T1.number_of_vertices() == T.number_of_vertices() 
+....: assert T1.number_of_cells() == T.number_of_cells()                                                                                                                                                 
+  File "<ipython-input-1-4e60e9b47dba>", line 1
+    rom CGAL.CGAL_Kernel import Point_3
+           ^
+SyntaxError: invalid syntax
+
+....: from CGAL.CGAL_Triangulation_3 import VERTEX 
+....: from CGAL.CGAL_Kernel import Ref_int 
+....:  
+....:  
+....: L = [] 
+....: L.append(Point_3(0, 0, 0)) 
+....: L.append(Point_3(1, 0, 0)) 
+....: L.append(Point_3(0, 1, 0)) 
+....:  
+....: T = Delaunay_triangulation_3(L) 
+....:  
+....: n = T.number_of_vertices() 
+....:  
+....: V = [] 
+....: V.append(Point_3(0, 0, 1)) 
+....: V.append(Point_3(1, 1, 1)) 
+....: V.append(Point_3(2, 2, 2)) 
+....:  
+....: n = n + T.insert(V) 
+....:  
+....: assert n == 6 
+....: assert T.is_valid() 
+....:  
+....: lt = Ref_Locate_type_3() 
+....: li = Ref_int() 
+....: lj = Ref_int() 
+....: p = Point_3(0, 0, 0) 
+....:  
+....: c = T.locate(p, lt, li, lj) 
+....: assert lt.object() == VERTEX 
+....: assert c.vertex(li.object()).point() == p 
+....:  
+....:  
+....: v = c.vertex((li.object()+1) & 3) 
+....: nc = c.neighbor(li.object()) 
+....:  
+....: nli = Ref_int() 
+....: assert nc.has_vertex(v, nli) 
+....:  
+....: T.write_to_file("output", 14) 
+....:  
+....: T1 = Delaunay_triangulation_3() 
+....: T1.read_from_file("output") 
+....:  
+....: assert T1.is_valid() 
+....: assert T1.number_of_vertices() == T.number_of_vertices() 
+....: assert T1.number_of_cells() == T.number_of_cells()                                                                                                                                                 
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-2-b3a5024555e6> in <module>
+      9 
+     10 L = []
+---> 11 L.append(Point_3(Integer(0), Integer(0), Integer(0)))
+     12 L.append(Point_3(Integer(1), Integer(0), Integer(0)))
+     13 L.append(Point_3(Integer(0), Integer(1), Integer(0)))
+
+~/Research/sage_develop/sage/local/lib/python3.7/site-packages/CGAL/CGAL_Kernel.py in __init__(self, *args)
+    568 
+    569     def __init__(self, *args):
+--> 570         _CGAL_Kernel.Point_3_swiginit(self, _CGAL_Kernel.new_Point_3(*args))
+    571 
+    572     def x(self):
+
+TypeError: Wrong number or type of arguments for overloaded function 'new_Point_3'.
+  Possible C/C++ prototypes are:
+    Point_3::Point_3()
+    Point_3::Point_3(Origin const &)
+    Point_3::Point_3(double,double,double)
+
+
+[1]  + 30296 suspended  ./sage
+➜  sage git:(cgal_swig_drk) ✗ ./sage
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.3.beta4, Release Date: 2020-12-14               │
+│ Using Python 3.7.9. Type "help()" for help.                        │
+└────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Warning: this is a prerelease version, and it may be unstable.     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+sage: preparser(False)                                                                                                                                                                                   
+....: from CGAL.CGAL_Triangulation_3 import VERTEX 
+....: from CGAL.CGAL_Kernel import Ref_int 
+....:  
+....:  
+....: L = [] 
+....: L.append(Point_3(0, 0, 0)) 
+....: L.append(Point_3(1, 0, 0)) 
+....: L.append(Point_3(0, 1, 0)) 
+....:  
+....: T = Delaunay_triangulation_3(L) 
+....:  
+....: n = T.number_of_vertices() 
+....:  
+....: V = [] 
+....: V.append(Point_3(0, 0, 1)) 
+....: V.append(Point_3(1, 1, 1)) 
+....: V.append(Point_3(2, 2, 2)) 
+....:  
+....: n = n + T.insert(V) 
+....:  
+....: assert n == 6 
+....: assert T.is_valid() 
+....:  
+....: lt = Ref_Locate_type_3() 
+....: li = Ref_int() 
+....: lj = Ref_int() 
+....: p = Point_3(0, 0, 0) 
+....:  
+....: c = T.locate(p, lt, li, lj) 
+....: assert lt.object() == VERTEX 
+....: assert c.vertex(li.object()).point() == p 
+....:  
+....:  
+....: v = c.vertex((li.object()+1) & 3) 
+....: nc = c.neighbor(li.object()) 
+....:  
+....: nli = Ref_int() 
+....: assert nc.has_vertex(v, nli) 
+....:  
+....: T.write_to_file("output", 14) 
+....:  
+....: T1 = Delaunay_triangulation_3() 
+....: T1.read_from_file("output") 
+....:  
+....: assert T1.is_valid() 
+....: assert T1.number_of_vertices() == T.number_of_vertices() 
+....: assert T1.number_of_cells() == T.number_of_cells()                                                                                                                                                 
+sage:                                                                                                                                                                                                    
+sage: from __future__ import print_function 
+....: from CGAL.CGAL_Kernel import Point_3 
+....: from CGAL.CGAL_Kernel import Plane_3 
+....: from CGAL import CGAL_Convex_hull_3 
+....: from CGAL.CGAL_Polyhedron_3 import Polyhedron_3 
+....:  
+....: pts = [] 
+....: pts.append(Point_3(0, 0, 0)) 
+....: pts.append(Point_3(0, 1, 0)) 
+....: pts.append(Point_3(1, 1, 0)) 
+....: pts.append(Point_3(1, 0, 0)) 
+....: pts.append(Point_3(0, 0, 1)) 
+....: pts.append(Point_3(0, 1, 1)) 
+....: pts.append(Point_3(1, 1, 1)) 
+....: pts.append(Point_3(1, 0, 1)) 
+....:  
+....: res = Polyhedron_3() 
+....:  
+....: CGAL_Convex_hull_3.convex_hull_3(pts, res) 
+....:  
+....: print("convex hull has ", res.size_of_vertices(), " vertices") 
+....: print("is strongly convex: ", CGAL_Convex_hull_3.is_strongly_convex_3(res)) 
+....:  
+....:  
+....: planes = [] 
+....: planes.append(Plane_3(-1, 0, 0, 0)) 
+....: planes.append(Plane_3(1, 0, 0, -1)) 
+....: planes.append(Plane_3(0, -1, 0, 0)) 
+....: planes.append(Plane_3(0, 1, 0, -1)) 
+....: planes.append(Plane_3(0, 0, -1, 0)) 
+....: planes.append(Plane_3(0, 0, 1, -1)) 
+....:  
+....: res.clear() 
+....: CGAL_Convex_hull_3.halfspace_intersection_3(planes, res) 
+....: print("halfspace intersection has ", res.size_of_vertices(), " vertices")                                                                                                                          
+convex hull has  8  vertices
+is strongly convex:  True
+halfspace intersection has  8  vertices
+sage:                                                                                                                                                                                                    
