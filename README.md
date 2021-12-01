@@ -1,6 +1,6 @@
 # Description
 
-This project mainly focuses on developing effecient data structures and algorithms, and implementing them in C++ and Python, for exploring new cut-generating functions in high-dimensional space.
+This project mainly focuses on developing effecient data structures and algorithms, and implementing them in C++ and Python, for exploring new cut-generating functions in high-dimensional space. [try](https://github.com/DRKWang/cutgeneratingfunctions_new/blob/main/rationalpolyhedronfan.ipynb)
 
 # Introduction
 
